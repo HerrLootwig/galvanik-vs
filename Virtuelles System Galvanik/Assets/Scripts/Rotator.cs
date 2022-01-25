@@ -40,7 +40,7 @@ public class Rotator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        Rotate();
+        //Rotate();
     }
 
     public void Rotate() => Rotate(angle);
