@@ -52,7 +52,6 @@ namespace haw.unitytutorium.w21
             var currentHorizontalAngle = transformPosition.z < targetPosition.z
                ? -Vector3.Angle(axisHelper, from)
                : Vector3.Angle(axisHelper, from);
-            Debug.Log(currentHorizontalAngle);
 
             checkXBoundaries(currentHorizontalAngle);
 
