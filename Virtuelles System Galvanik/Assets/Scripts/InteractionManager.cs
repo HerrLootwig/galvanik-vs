@@ -104,7 +104,6 @@ namespace haw.unitytutorium.w21
             userInterface.StopHelpAndErrorDisplay();
             
             currentInteraction.Response?.Invoke();
-
             yield return new WaitForSeconds(currentInteraction.duration);
             
             interactionIndex++;

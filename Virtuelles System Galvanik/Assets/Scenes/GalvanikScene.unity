@@ -889,7 +889,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -516098083770646512, guid: 4e83899be1da6034f846220379182992, type: 3}
   m_PrefabInstance: {fileID: 657920872}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &626538264
+--- !u!114 &626538261
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -898,11 +898,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 626538260}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb85d2f64717bc04f8bc3510793fb2e5, type: 3}
+  m_Script: {fileID: 11500000, guid: 5fb6acd573a4c364cb6ae289caf10a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  axis: 0
-  angle: -0.05
+  animator: {fileID: 626538267}
 --- !u!65 &626538265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -911,7 +910,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 626538260}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 0.00822659, y: 0.008285521, z: 0.019999998}
@@ -929,6 +928,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highlightMaterial: {fileID: 2100000, guid: a7504aab9cd766f42bfe0abbeaf53be3, type: 2}
+--- !u!95 &626538267
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 626538260}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 219d6bab9123c9847bb1be432d9549c3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &657920872
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1083,6 +1101,26 @@ PrefabInstance:
     - target: {fileID: 3141101260113499581, guid: 4e83899be1da6034f846220379182992, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083501151425157549, guid: 4e83899be1da6034f846220379182992, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7948593
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083501151425157549, guid: 4e83899be1da6034f846220379182992, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.6067938
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083501151425157549, guid: 4e83899be1da6034f846220379182992, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 2.0879461e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083501151425157549, guid: 4e83899be1da6034f846220379182992, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -2.0879461e-17
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083501151425157549, guid: 4e83899be1da6034f846220379182992, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5124044694847289502, guid: 4e83899be1da6034f846220379182992, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -2662,9 +2700,9 @@ MonoBehaviour:
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1675785457}
+        - m_Target: {fileID: 1320627211}
           m_TargetAssemblyTypeName: Output, Assembly-CSharp
-          m_MethodName: putOut
+          m_MethodName: 
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -2682,16 +2720,16 @@ MonoBehaviour:
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1675785457}
+        - m_Target: {fileID: 626538261}
           m_TargetAssemblyTypeName: Output, Assembly-CSharp
-          m_MethodName: putOut
+          m_MethodName: triggered
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: Power On
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 1697679541}
@@ -3200,6 +3238,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fb6acd573a4c364cb6ae289caf10a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!64 &1675785459
 MeshCollider:
   m_ObjectHideFlags: 0

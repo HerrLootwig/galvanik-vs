@@ -4,20 +4,10 @@ using UnityEngine;
 
 public class Output : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-    public void putOut()
-    {
-        Debug.Log("Animation");
+    [SerializeField] Animator animator;
+    public void triggered() {
+        animator.SetTrigger("Power On");
+        Debug.Log("PAUWÖR");
     }
 }
