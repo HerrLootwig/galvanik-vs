@@ -901,7 +901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5fb6acd573a4c364cb6ae289caf10a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animator: {fileID: 626538267}
+  animator: {fileID: 0}
 --- !u!65 &626538265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1044,7 +1044,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5568371526223589888, guid: 4e83899be1da6034f846220379182992, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -4683669308469848369, guid: 4e83899be1da6034f846220379182992, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -1066,6 +1066,26 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: -2577548232221058511, guid: 4e83899be1da6034f846220379182992, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -2577548232221058511, guid: 4e83899be1da6034f846220379182992, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.000000021855694
+      objectReference: {fileID: 0}
+    - target: {fileID: -2577548232221058511, guid: 4e83899be1da6034f846220379182992, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2577548232221058511, guid: 4e83899be1da6034f846220379182992, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2577548232221058511, guid: 4e83899be1da6034f846220379182992, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -516098083770646512, guid: 4e83899be1da6034f846220379182992, type: 3}
       propertyPath: m_Name
       value: PowerBtn
@@ -1076,7 +1096,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -516098083770646512, guid: 4e83899be1da6034f846220379182992, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 65702495048144492, guid: 4e83899be1da6034f846220379182992, type: 3}
       propertyPath: m_IsActive
@@ -1120,6 +1140,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4083501151425157549, guid: 4e83899be1da6034f846220379182992, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083501151425157549, guid: 4e83899be1da6034f846220379182992, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4083501151425157549, guid: 4e83899be1da6034f846220379182992, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5124044694847289502, guid: 4e83899be1da6034f846220379182992, type: 3}
@@ -2715,7 +2743,7 @@ MonoBehaviour:
     Instruction: Nehmen Sie das Stoffpad
     HelpMsg: Sieht aus wie ein Tampon
     ErrorMsg: Das ist doch nicht dein Ernst!
-    duration: 5
+    duration: 1
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -2735,40 +2763,40 @@ MonoBehaviour:
     Instruction: "Schalten Sie das Netzger\xE4t ein"
     HelpMsg: Ein schwarzer Kippschalter
     ErrorMsg: Das ist doch nicht dein Ernst!
-    duration: 5
+    duration: 1
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 626538261}
-          m_TargetAssemblyTypeName: Output, Assembly-CSharp
-          m_MethodName: triggered
-          m_Mode: 1
+        - m_Target: {fileID: 626538267}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Power On
+            m_StringArgument: PowerOn
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 1697679541}
     Instruction: "Stellen Sie das Netzger\xE4t auf 6 Volt ein"
     HelpMsg: Ein runder Knopf
     ErrorMsg: Das ist doch nicht dein Ernst!
-    duration: 5
+    duration: 1
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1675785457}
-          m_TargetAssemblyTypeName: Output, Assembly-CSharp
-          m_MethodName: putOut
-          m_Mode: 1
+        - m_Target: {fileID: 1697679548}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: Voltage6
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 342437329}
@@ -3419,6 +3447,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highlightMaterial: {fileID: 2100000, guid: a7504aab9cd766f42bfe0abbeaf53be3, type: 2}
+--- !u!95 &1697679548
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697679541}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe45805d395fa734db1db91a1c50b009, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &1898793942 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -1355326087653175582, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
