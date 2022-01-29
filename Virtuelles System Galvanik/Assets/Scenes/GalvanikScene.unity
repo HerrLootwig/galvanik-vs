@@ -304,11 +304,20 @@ PrefabInstance:
       propertyPath: m_Name
       value: StoffpadAkt
       objectReference: {fileID: 0}
+    - target: {fileID: 1091624677310397015, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
 --- !u!1 &84091961 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1091624677310397015, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
+  m_PrefabInstance: {fileID: 78686663}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &84091963 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -2664311528190272100, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
   m_PrefabInstance: {fileID: 78686663}
   m_PrefabAsset: {fileID: 0}
 --- !u!65 &84091965
@@ -337,6 +346,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highlightMaterial: {fileID: 2100000, guid: a7504aab9cd766f42bfe0abbeaf53be3, type: 2}
+--- !u!114 &84091967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 84091961}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58bb8708c8e46c7488d614cf378d53e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 84091963}
+  visibleOnStart: 1
 --- !u!1 &109546918
 GameObject:
   m_ObjectHideFlags: 0
@@ -1520,6 +1543,30 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
   m_PrefabInstance: {fileID: 78686663}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &769501761 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: -2956085156440476647, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
+  m_PrefabInstance: {fileID: 78686663}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &769501763 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -6151850991704179314, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
+  m_PrefabInstance: {fileID: 78686663}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &769501765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 769501761}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58bb8708c8e46c7488d614cf378d53e8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rend: {fileID: 769501763}
+  visibleOnStart: 1
 --- !u!1001 &821597800
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1886,6 +1933,10 @@ PrefabInstance:
     - target: {fileID: 1091624677310397015, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
       propertyPath: m_Name
       value: StoffpadElek
+      objectReference: {fileID: 0}
+    - target: {fileID: 1091624677310397015, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
@@ -2281,7 +2332,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -6151850991704179314, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -5568371526223589888, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
       propertyPath: m_Layer
@@ -2317,7 +2368,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2664311528190272100, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -1355326087653175582, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
       propertyPath: m_Layer
@@ -3112,10 +3163,10 @@ MonoBehaviour:
   defaultErrorMsg: Das ist falsch!
   interactions:
   - GameObject: {fileID: 422632050}
-    Instruction: Nehmen Sie das Stoffpad
-    HelpMsg: Sieht aus wie ein Tampon
+    Instruction: "Nehmen Sie das Stoffpad f\xFCr den Entfetter"
+    HelpMsg: "Es ist l\xE4nglich und wei\xDF. Beachten Sie die Ettiketten!"
     ErrorMsg: Das ist doch nicht dein Ernst!
-    duration: 1
+    duration: 2.5
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -3191,7 +3242,7 @@ MonoBehaviour:
     Instruction: "Stellen Sie das Netzger\xE4t auf 6 Volt ein"
     HelpMsg: Ein runder Knopf
     ErrorMsg: Das ist doch nicht dein Ernst!
-    duration: 1
+    duration: 1.5
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -3259,7 +3310,7 @@ MonoBehaviour:
     Instruction: Stecken Sie die Klemme an den Armreif
     HelpMsg: Ein Oberkiefer und ein Unterkiefer
     ErrorMsg: Das ist doch nicht dein Ernst!
-    duration: 1
+    duration: 1.5
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -3279,7 +3330,7 @@ MonoBehaviour:
     Instruction: Tauchen Sie die Elektrode in den Entfetter
     HelpMsg: Achten Sie auf das Etikett
     ErrorMsg: Das ist doch nicht dein Ernst!
-    duration: 1
+    duration: 3
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -3295,11 +3346,11 @@ MonoBehaviour:
             m_StringArgument: PutInEntfetter
             m_BoolArgument: 0
           m_CallState: 2
-  - GameObject: {fileID: 1675785456}
+  - GameObject: {fileID: 1898793942}
     Instruction: "Fahren Sie mit der Elektrode \xFCber den Armreif"
-    HelpMsg: "Das Ding, das Sie vergolden m\xF6chten"
+    HelpMsg: "Das Teil, an dem das Stoffpad h\xE4ngt"
     ErrorMsg: Das ist doch nicht dein Ernst!
-    duration: 1
+    duration: 10
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -3319,7 +3370,7 @@ MonoBehaviour:
     Instruction: "Sp\xFClen Sie den Armreif mit Wasser ab"
     HelpMsg: "Die Spr\xFChflasche"
     ErrorMsg: Das ist doch nicht dein Ernst!
-    duration: 1
+    duration: 3
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -3335,17 +3386,9 @@ MonoBehaviour:
             m_StringArgument: Spray
             m_BoolArgument: 0
           m_CallState: 2
-  - GameObject: {fileID: 0}
-    Instruction: Wechseln Sie das Stoffpad
-    HelpMsg: Das zweite Pad von links
-    ErrorMsg: Das ist doch nicht dein Ernst!
-    duration: 1
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1675785457}
-          m_TargetAssemblyTypeName: Output, Assembly-CSharp
-          m_MethodName: putOut
+        - m_Target: {fileID: 1698652384}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3355,17 +3398,121 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 422632056}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 84091961}
+    Instruction: "Nehmen Sie das Stoffpad f\xFCr den Aktivator"
+    HelpMsg: Das zweite Pad von links
+    ErrorMsg: Das ist doch nicht dein Ernst!
+    duration: 3.5
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 31328792}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: ChangeToAktivator
+            m_BoolArgument: 0
+          m_CallState: 2
   - GameObject: {fileID: 1697679541}
     Instruction: "Stellen Sie das Netzger\xE4t auf 2.7 Volt ein"
     HelpMsg: Der runde Knopf
     ErrorMsg: Das ist doch nicht dein Ernst!
-    duration: 1
+    duration: 1.5
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1675785457}
-          m_TargetAssemblyTypeName: Output, Assembly-CSharp
-          m_MethodName: putOut
+        - m_Target: {fileID: 1697679548}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Voltage2_7
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 769501765}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 84091967}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3383,19 +3530,19 @@ MonoBehaviour:
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1675785457}
-          m_TargetAssemblyTypeName: Output, Assembly-CSharp
-          m_MethodName: putOut
-          m_Mode: 1
+        - m_Target: {fileID: 31328792}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: PutInAktivator
             m_BoolArgument: 0
           m_CallState: 2
-  - GameObject: {fileID: 1675785456}
+  - GameObject: {fileID: 1898793942}
     Instruction: "Fahren Sie mit der Elektrode \xFCber den Armreif"
     HelpMsg: "Das Ding, das Sie vergolden m\xF6chten"
     ErrorMsg: Das ist doch nicht dein Ernst!
@@ -3403,29 +3550,41 @@ MonoBehaviour:
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1675785457}
-          m_TargetAssemblyTypeName: Output, Assembly-CSharp
-          m_MethodName: putOut
-          m_Mode: 1
+        - m_Target: {fileID: 31328792}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: WorkOnArmreif2
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 980218013}
-    Instruction: "Sp\xFClen SIe den Armreif mit Wasser ab"
+    Instruction: "Sp\xFClen Sie den Armreif mit Wasser ab"
     HelpMsg: "Die Spr\xFChflasche"
     ErrorMsg: Das ist doch nicht dein Ernst!
-    duration: 1
+    duration: 2.5
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1675785457}
-          m_TargetAssemblyTypeName: Output, Assembly-CSharp
-          m_MethodName: putOut
+        - m_Target: {fileID: 1492272443}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Spray
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3435,17 +3594,9 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - GameObject: {fileID: 0}
-    Instruction: Wechseln Sie das Stoffpad
-    HelpMsg: Das dritte von links
-    ErrorMsg: Das ist doch nicht dein Ernst!
-    duration: 1
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1675785457}
-          m_TargetAssemblyTypeName: Output, Assembly-CSharp
-          m_MethodName: putOut
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3453,6 +3604,50 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 769501765}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 84091967}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 495911220}
+    Instruction: "Nehmen Sie das Stoffpad f\xFCr den Elektrolyt"
+    HelpMsg: Das dritte von links
+    ErrorMsg: Das ist doch nicht dein Ernst!
+    duration: 3.5
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 31328792}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: ChangeToElektrolyt
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 1697679541}
@@ -3463,9 +3658,57 @@ MonoBehaviour:
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1675785457}
-          m_TargetAssemblyTypeName: Output, Assembly-CSharp
-          m_MethodName: putOut
+        - m_Target: {fileID: 1697679548}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Voltage4
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1998281469}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 495911226}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -3523,20 +3766,20 @@ MonoBehaviour:
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1675785457}
-          m_TargetAssemblyTypeName: Output, Assembly-CSharp
-          m_MethodName: putOut
-          m_Mode: 1
+        - m_Target: {fileID: 1492272443}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: Spray
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 626538260}
-    Instruction: "Schalten Sie das Netzger\xE4t asu"
+    Instruction: "Schalten Sie das Netzger\xE4t aus"
     HelpMsg: Ein schwarzer Kippschalter
     ErrorMsg: Das ist doch nicht dein Ernst!
     duration: 1
