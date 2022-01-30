@@ -3645,7 +3645,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - GameObject: {fileID: 1675785456}
+  - GameObject: {fileID: 1898793942}
     Instruction: Bearbeiten Sie den Armreif mit der Elektrode
     HelpMsg: "Das Ding, das Sie vergolden m\xF6chten"
     ErrorMsg: Das ist doch nicht dein Ernst!
@@ -3693,16 +3693,16 @@ MonoBehaviour:
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: Output, Assembly-CSharp
-          m_MethodName: putOut
-          m_Mode: 1
+        - m_Target: {fileID: 626538267}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: 
+            m_StringArgument: PowerOff
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 937018774}
@@ -3897,11 +3897,6 @@ MonoBehaviour:
 MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -2664311528190272100, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
   m_PrefabInstance: {fileID: 1297781671}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &1675785456 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ddf55c6f71c3d3c4e9815cdb59f13ba3, type: 3}
-  m_PrefabInstance: {fileID: 1250319936}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1695268823
 PrefabInstance:
