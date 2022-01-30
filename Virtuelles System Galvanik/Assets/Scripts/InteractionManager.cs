@@ -16,6 +16,9 @@ namespace haw.unitytutorium.w21
         private Interaction currentInteraction;
         private int interactionIndex;
 
+        private int helpCount = 0;
+        private int errorCount = 0;
+
         private bool inputBlocked;
 
         private void Awake()
@@ -77,10 +80,12 @@ namespace haw.unitytutorium.w21
             //     CheckInteractionOrder(mouseSelectionController.MouseOverGameObject);
             // }
 
+
+            /*
             if (Input.GetKeyDown(KeyCode.H))
             {
                 HandleHelpRequest();
-            }
+            } */
         }
 
         private void CheckInteractionOrder(GameObject selectedGameObject)
@@ -120,11 +125,15 @@ namespace haw.unitytutorium.w21
         private void HandleError()
         {
             userInterface.DisplayErrorMessage(currentInteraction.ErrorMsg);
+            errorCount += 1;
+            userInterface.SetErrorCount(errorCount);
         }
 
-        private void HandleHelpRequest()
+        public void HandleHelpRequest()
         {
             userInterface.DisplayHelpMessage(currentInteraction.HelpMsg);
+            helpCount += 1;
+            userInterface.SetHelpCount(helpCount);
         }
     }
 }
