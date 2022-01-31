@@ -168,7 +168,7 @@ Transform:
   m_GameObject: {fileID: 31328791}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 16.229912, y: 7.4153566, z: 13.389656}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.107839, y: 4.107839, z: 4.107839}
   m_Children:
   - {fileID: 2045288024}
   - {fileID: 1320627214}
@@ -774,15 +774,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f45322c74fbbcf40abcadeb552c050d, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f45322c74fbbcf40abcadeb552c050d, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f45322c74fbbcf40abcadeb552c050d, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 6f45322c74fbbcf40abcadeb552c050d, type: 3}
       propertyPath: m_LocalPosition.x
@@ -879,7 +879,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 79359eedce69ae94c8be4c0b06de07e6, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 9.850272
+      value: 15.44
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 79359eedce69ae94c8be4c0b06de07e6, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1073,15 +1073,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23b7b84debec42441aa0953b8577470a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23b7b84debec42441aa0953b8577470a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23b7b84debec42441aa0953b8577470a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23b7b84debec42441aa0953b8577470a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1230,101 +1230,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 298832710}
   m_CullTransparentMesh: 1
---- !u!1 &302526452
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 302526456}
-  - component: {fileID: 302526455}
-  - component: {fileID: 302526454}
-  - component: {fileID: 302526453}
-  m_Layer: 0
-  m_Name: Sphere
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!135 &302526453
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 302526452}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &302526454
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 302526452}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: c7070909e711ccb458ccf5a06417880d, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &302526455
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 302526452}
-  m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &302526456
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 302526452}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.803631, y: 10.59, z: 7.02}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 17
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &338413101
 GameObject:
   m_ObjectHideFlags: 0
@@ -1412,8 +1317,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338413101}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.48, y: 20.83, z: 4.967873}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -5.48, y: 82.4, z: 4.967873}
+  m_LocalScale: {x: 4.107839, y: 4.107839, z: 4.107839}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
@@ -1494,7 +1399,7 @@ Transform:
   m_GameObject: {fileID: 377514423}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.519483, y: -1.46979, z: 0.222728}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.107839, y: 4.107839, z: 4.107839}
   m_Children:
   - {fileID: 423595621}
   - {fileID: 1250319937}
@@ -1521,7 +1426,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &395455733
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1987,15 +1892,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4e83899be1da6034f846220379182992, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.1005859
+      value: 4.52103
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4e83899be1da6034f846220379182992, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.1005859
+      value: 4.52103
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4e83899be1da6034f846220379182992, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.1005859
+      value: 4.52103
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 4e83899be1da6034f846220379182992, type: 3}
       propertyPath: m_LocalPosition.x
@@ -2520,10 +2425,6 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 1005384091583915077, guid: c9a6549172d4f49429a8f16629be364d, type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 3609018082110429662, guid: c9a6549172d4f49429a8f16629be364d, type: 3}
     - target: {fileID: 1262173828306193202, guid: c9a6549172d4f49429a8f16629be364d, type: 3}
       propertyPath: m_LocalRotation.w
       value: 0.70501477
@@ -3326,7 +3227,7 @@ Transform:
   m_GameObject: {fileID: 1200687637}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.107839, y: 4.107839, z: 4.107839}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 13
@@ -3361,7 +3262,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ddf55c6f71c3d3c4e9815cdb59f13ba3, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 11.066
+      value: 12.176
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ddf55c6f71c3d3c4e9815cdb59f13ba3, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3402,7 +3303,7 @@ PrefabInstance:
     - target: {fileID: -7511558181221131132, guid: ddf55c6f71c3d3c4e9815cdb59f13ba3, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: c7070909e711ccb458ccf5a06417880d, type: 2}
+      objectReference: {fileID: 2100000, guid: 3772c25935415cb43817c6a283c41cdd, type: 2}
     - target: {fileID: 919132149155446097, guid: ddf55c6f71c3d3c4e9815cdb59f13ba3, type: 3}
       propertyPath: m_Name
       value: Armreif UV
@@ -3632,15 +3533,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37550e4bd55a5e14e9148b9e110c7315, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37550e4bd55a5e14e9148b9e110c7315, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37550e4bd55a5e14e9148b9e110c7315, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 37550e4bd55a5e14e9148b9e110c7315, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3725,15 +3626,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d24bde57d267a32498bba9034e401826, type: 3}
       propertyPath: m_LocalScale.x
-      value: 10
+      value: 41.07839
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d24bde57d267a32498bba9034e401826, type: 3}
       propertyPath: m_LocalScale.y
-      value: 10
+      value: 41.07839
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d24bde57d267a32498bba9034e401826, type: 3}
       propertyPath: m_LocalScale.z
-      value: 10
+      value: 41.07839
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: d24bde57d267a32498bba9034e401826, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4078,15 +3979,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb672a36a67d45c4a90d9fd11feec943, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb672a36a67d45c4a90d9fd11feec943, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb672a36a67d45c4a90d9fd11feec943, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fb672a36a67d45c4a90d9fd11feec943, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4280,7 +4181,7 @@ Transform:
   m_GameObject: {fileID: 1507269314}
   m_LocalRotation: {x: 0.07269906, y: 0.7119239, z: -0.074523345, w: 0.6944966}
   m_LocalPosition: {x: 4.95, y: 11.773, z: 13.09}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.107839, y: 4.107839, z: 4.107839}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -4505,8 +4406,28 @@ MonoBehaviour:
             m_StringArgument: KlemmeAnArmreif
             m_BoolArgument: 0
           m_CallState: 2
+  - GameObject: {fileID: 600897783}
+    Instruction: 5/19 Tauchen Sie die Elektrode in den Entfetter
+    HelpMsg: Achten Sie auf das Etikett
+    ErrorMsg: "Das ist nicht das gesuchte Gef\xE4\xDF"
+    duration: 3
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 31328792}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: PutInEntfetter
+            m_BoolArgument: 0
+          m_CallState: 2
   - GameObject: {fileID: 1898793942}
-    Instruction: "5/19 Fahren Sie mit der Elektrode \xFCber den Armreif"
+    Instruction: "6/19 Fahren Sie mit der Elektrode \xFCber den Armreif"
     HelpMsg: Das Teil, an dem eben das Stoffpad befestigt wurde
     ErrorMsg: Das ist nicht die Elektrode
     duration: 10
@@ -4526,7 +4447,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 980218013}
-    Instruction: "6/19 Sp\xFClen Sie den Armreif mit Wasser ab"
+    Instruction: "7/19 Sp\xFClen Sie den Armreif mit Wasser ab"
     HelpMsg: "Die Spr\xFChflasche"
     ErrorMsg: Das ist nicht das Wasser
     duration: 3
@@ -4594,7 +4515,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 84091961}
-    Instruction: "7/19 Nehmen Sie das Stoffpad f\xFCr den Aktivator"
+    Instruction: "8/19 Nehmen Sie das Stoffpad f\xFCr den Aktivator"
     HelpMsg: Das zweite Pad von links
     ErrorMsg: Das ist nicht das gesuchte Stoffpad
     duration: 3.5
@@ -4614,7 +4535,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 1697679541}
-    Instruction: "8/19 Stellen Sie das Netzger\xE4t auf 2.7 Volt ein"
+    Instruction: "9/19 Stellen Sie das Netzger\xE4t auf 2.7 Volt ein"
     HelpMsg: Der runde Knopf
     ErrorMsg: Das ist nicht der gesuchte Schalter
     duration: 1.5
@@ -4681,8 +4602,28 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  - GameObject: {fileID: 1083452961}
+    Instruction: 10/19 Dippen Sie die Elektrode in den Aktivator
+    HelpMsg: Achten Sie auf das Etikett und die Farbe
+    ErrorMsg: "Das ist nicht das gesuchte Gef\xE4\xDF"
+    duration: 3
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 31328792}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: PutInAktivator
+            m_BoolArgument: 0
+          m_CallState: 2
   - GameObject: {fileID: 1898793942}
-    Instruction: "9/19 Fahren Sie mit der Elektrode \xFCber den Armreif"
+    Instruction: "11/19 Fahren Sie mit der Elektrode \xFCber den Armreif"
     HelpMsg: Das Teil, an dem eben das Stoffpad befestigt wurde
     ErrorMsg: Das ist nicht die Elektrode
     duration: 10
@@ -4702,7 +4643,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 980218013}
-    Instruction: "10/19 Sp\xFClen Sie den Armreif mit Wasser ab"
+    Instruction: "12/19 Sp\xFClen Sie den Armreif mit Wasser ab"
     HelpMsg: "Die Spr\xFChflasche"
     ErrorMsg: Das ist nicht das Wasser
     duration: 2.5
@@ -4770,7 +4711,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 495911220}
-    Instruction: "11/19 Nehmen Sie das Stoffpad f\xFCr den Elektrolyt"
+    Instruction: "13/19 Nehmen Sie das Stoffpad f\xFCr den Elektrolyt"
     HelpMsg: Beachten Sie das Etikett
     ErrorMsg: Das ist nicht das gesuchte Stoffpad
     duration: 3.5
@@ -4790,7 +4731,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 1697679541}
-    Instruction: "12/19 Stellen Sie das Netzger\xE4t auf 4 Volt ein"
+    Instruction: "14/19 Stellen Sie das Netzger\xE4t auf 4 Volt ein"
     HelpMsg: Der runde Knopf
     ErrorMsg: Das ist nicht der gesuchte Schalter
     duration: 1.5
@@ -4857,42 +4798,10 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - GameObject: {fileID: 1898793942}
-    Instruction: 13/19 Bearbeiten Sie den Armreif mit der Elektrode
-    HelpMsg: Das Teil, an dem eben das Stoffpad befestigt wurde
-    ErrorMsg: Das ist nicht die Elektrode
-    duration: 1
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 31328792}
-          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-          m_MethodName: SetTrigger
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: WorkOnArmreif3
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 377514424}
-          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-          m_MethodName: SetTrigger
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: ChangeColorOutside
-            m_BoolArgument: 0
-          m_CallState: 2
   - GameObject: {fileID: 68381007}
-    Instruction: 14/19 Nutzen Sie den Elektrolyt um das Stoffpad vollzusaugen
-    HelpMsg: Achten Sie auf das Etikett
-    ErrorMsg: Das ist nicht das Elektrolyt
+    Instruction: 15/19 Tauchen Sie die Elektrode in den Goldelektrolyt
+    HelpMsg: Beachten Sie das Etikett
+    ErrorMsg: "Das ist nicht das gesuchte Gef\xE4\xDF"
     duration: 1
     Response:
       m_PersistentCalls:
@@ -4906,11 +4815,11 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: PutInElektrolyt
+            m_StringArgument: putInElektrolyt
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 1898793942}
-    Instruction: 15/19 Bearbeiten Sie den Armreif erneut mit der Elektrode
+    Instruction: 16/19 Bearbeiten Sie den Armreif mit der Elektrode
     HelpMsg: Das Teil, an dem eben das Stoffpad befestigt wurde
     ErrorMsg: Das ist nicht die Elektrode
     duration: 1
@@ -4927,22 +4836,10 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: WorkOnArmreif3
-            m_BoolArgument: 0
-          m_CallState: 2
-        - m_Target: {fileID: 377514424}
-          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-          m_MethodName: SetTrigger
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: ChangeColorInside
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 980218013}
-    Instruction: "16/19 Sp\xFClen Sie den Armreif mit Wasser ab"
+    Instruction: "17/19 Sp\xFClen Sie den Armreif mit Wasser ab"
     HelpMsg: "Die Spr\xFChflasche"
     ErrorMsg: Das ist nicht das Wasser
     duration: 3
@@ -4962,7 +4859,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 626538260}
-    Instruction: "17/19 Schalten Sie das Netzger\xE4t aus"
+    Instruction: "18/19 Schalten Sie das Netzger\xE4t aus"
     HelpMsg: Ein schwarzer Kippschalter
     ErrorMsg: Das ist nicht der gesuchte Schalter
     duration: 1
@@ -4982,28 +4879,8 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 937018774}
-    Instruction: 18/19 Polieren Sie den Armreif
-    HelpMsg: Nehmen Sie das Tuch
-    ErrorMsg: Das ist nicht das Richtige zum polieren
-    duration: 1
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 377514424}
-          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-          m_MethodName: SetTrigger
-          m_Mode: 5
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: PolierenArmreif
-            m_BoolArgument: 0
-          m_CallState: 2
-  - GameObject: {fileID: 937018774}
     Instruction: 19/19 Polieren Sie den Armreif
-    HelpMsg: hihi
+    HelpMsg: Nehmen Sie das Tuch
     ErrorMsg: Das ist nicht das Richtige zum polieren
     duration: 1
     Response:
@@ -5439,7 +5316,7 @@ Transform:
   m_GameObject: {fileID: 1660982168}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 596.4, y: 516.96, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.107839, y: 4.107839, z: 4.107839}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 16
@@ -5457,15 +5334,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23b7b84debec42441aa0953b8577470a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23b7b84debec42441aa0953b8577470a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23b7b84debec42441aa0953b8577470a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23b7b84debec42441aa0953b8577470a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6202,15 +6079,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45e04a896f89db54ba581fdc9b1e04ef, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45e04a896f89db54ba581fdc9b1e04ef, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45e04a896f89db54ba581fdc9b1e04ef, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 45e04a896f89db54ba581fdc9b1e04ef, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6287,15 +6164,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23b7b84debec42441aa0953b8577470a, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23b7b84debec42441aa0953b8577470a, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23b7b84debec42441aa0953b8577470a, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.5
+      value: 2.0539196
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 23b7b84debec42441aa0953b8577470a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6556,9 +6433,9 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.8392157, g: 0.9423251, b: 1, a: 1}
-  m_Intensity: 200
-  m_Range: 50
-  m_SpotAngle: 107.67504
+  m_Intensity: 20000
+  m_Range: 117.08593
+  m_SpotAngle: 59.055893
   m_InnerSpotAngle: 23.43815
   m_CookieSize: 10
   m_Shadows:
@@ -6566,9 +6443,9 @@ Light:
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
-    m_Bias: 0.02
-    m_NormalBias: 0.1
-    m_NearPlane: 0.1
+    m_Bias: 10
+    m_NormalBias: 0
+    m_NearPlane: 1.24
     m_CullingMatrixOverride:
       e00: 1
       e01: 0
@@ -6614,8 +6491,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2058754688}
   m_LocalRotation: {x: 0.6273714, y: 0.16652052, z: 0.38546273, w: 0.65581596}
-  m_LocalPosition: {x: 0, y: 20.96, z: 13.38}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 79.9, z: 60.3}
+  m_LocalScale: {x: 4.107839, y: 4.107839, z: 4.107839}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 11
@@ -6632,7 +6509,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 474bcb49853aa07438625e644c072ee6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UsePipelineSettings: 1
+  m_UsePipelineSettings: 0
 --- !u!1001 &2064135898
 PrefabInstance:
   m_ObjectHideFlags: 0
