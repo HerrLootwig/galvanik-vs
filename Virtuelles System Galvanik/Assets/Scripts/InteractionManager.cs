@@ -91,8 +91,6 @@ namespace haw.unitytutorium.w21
         private void CheckInteractionOrder(GameObject selectedGameObject)
         {
             if (interactions == null || interactionIndex < 0 || interactionIndex >= interactions.Length) {
-                calculateResult();
-                userInterface.DisplayResults();
                 return;
             }
                 
@@ -155,6 +153,19 @@ namespace haw.unitytutorium.w21
             {
                 userInterface.SetRatingResult(" Schauen Sie sich nochmal den Demo-Modus an.");
             }
+        }
+
+        IEnumerator waiter()
+        {
+            yield return new WaitForSeconds(5);
+
+            calculateResult();
+            userInterface.DisplayResults();
+        }
+
+        public void HandleResults() {
+            StartCoroutine(waiter());
+            
         }
     }
 }

@@ -41,8 +41,6 @@ namespace haw.unitytutorium.w21
 
         public void DisplayResults()
         {
-            StartCoroutine(waiter());
-
             if (Panel != null) {
                 errorResult.text = errorCountLabel.text;
                 helpResult.text = helpCountLabel.text;
@@ -51,10 +49,7 @@ namespace haw.unitytutorium.w21
             }
         }
 
-        IEnumerator waiter()
-        {
-            yield return new WaitForSeconds(5);
-        }
+      
 
             public void HideResults()
         {
