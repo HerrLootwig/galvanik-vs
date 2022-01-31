@@ -27,6 +27,7 @@ namespace haw.unitytutorium.w21
         [SerializeField] private TextMeshProUGUI errorResult = null;
         [SerializeField] private TextMeshProUGUI helpResult = null;
         [SerializeField] private TextMeshProUGUI ratingResult = null;
+        [SerializeField] private GameObject helpButton;
 
         private void Start()
         {
@@ -40,18 +41,26 @@ namespace haw.unitytutorium.w21
 
         public void DisplayResults()
         {
+            StartCoroutine(waiter());
+
             if (Panel != null) {
                 errorResult.text = errorCountLabel.text;
                 helpResult.text = helpCountLabel.text;
-                ratingResult.text = "";
+                helpButton.SetActive(false);
                 Panel.SetActive(true);
             }
         }
 
-        public void HideResults()
+        IEnumerator waiter()
+        {
+            yield return new WaitForSeconds(5);
+        }
+
+            public void HideResults()
         {
             if (Panel != null)
             {
+                helpButton.SetActive(true);
                 Panel.SetActive(false);
             }
         }
@@ -93,5 +102,7 @@ namespace haw.unitytutorium.w21
         public void SetErrorCount(int count) => errorCountLabel.text = "" + count;
 
         public void SetHelpCount(int count) => helpCountLabel.text = "" + count;
+
+        public void SetRatingResult(string result) => ratingResult.text = result;
     }
 }

@@ -91,7 +91,7 @@ namespace haw.unitytutorium.w21
         private void CheckInteractionOrder(GameObject selectedGameObject)
         {
             if (interactions == null || interactionIndex < 0 || interactionIndex >= interactions.Length) {
-
+                calculateResult();
                 userInterface.DisplayResults();
                 return;
             }
@@ -140,6 +140,21 @@ namespace haw.unitytutorium.w21
             userInterface.SetHelpCount(helpCount);
         }
 
-        
+        private void calculateResult() {
+            var score = errorCount + helpCount;
+
+            if (score == 0) 
+            {
+                userInterface.SetRatingResult("Sehr gut! Sie sind bereit für die reale Anwendung.");
+            }
+            else if (score <= 5)
+            {
+                userInterface.SetRatingResult(" Gut! Sie sollten aber noch ein wenig üben.");
+            }
+            else
+            {
+                userInterface.SetRatingResult(" Schauen Sie sich nochmal den Demo-Modus an.");
+            }
+        }
     }
 }
