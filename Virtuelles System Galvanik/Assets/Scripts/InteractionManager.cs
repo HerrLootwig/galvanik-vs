@@ -90,8 +90,12 @@ namespace haw.unitytutorium.w21
 
         private void CheckInteractionOrder(GameObject selectedGameObject)
         {
-            if (interactions == null || interactionIndex < 0 || interactionIndex >= interactions.Length)
+            if (interactions == null || interactionIndex < 0 || interactionIndex >= interactions.Length) {
+
+                userInterface.DisplayResults();
                 return;
+            }
+                
 
             if (selectedGameObject.Equals(interactions[interactionIndex].GameObject))
             {
@@ -135,5 +139,7 @@ namespace haw.unitytutorium.w21
             helpCount += 1;
             userInterface.SetHelpCount(helpCount);
         }
+
+        
     }
 }

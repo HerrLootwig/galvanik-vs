@@ -14,12 +14,19 @@ namespace haw.unitytutorium.w21
 
         [SerializeField] private TextMeshProUGUI errorCountLabel = null;
         [SerializeField] private TextMeshProUGUI helpCountLabel = null;
+
+        
         
         [SerializeField] private float helpDelayTime = 0.1f;
         [SerializeField] private float helpDisplayTime = 5.0f;
         [SerializeField] private float errorDelayTime = 0.1f;
         [SerializeField] private float errorDisplayTime = 4.0f;
 
+        [Header("Results Panel")]
+        [SerializeField] private GameObject Panel;
+        [SerializeField] private TextMeshProUGUI errorResult = null;
+        [SerializeField] private TextMeshProUGUI helpResult = null;
+        [SerializeField] private TextMeshProUGUI ratingResult = null;
 
         private void Start()
         {
@@ -29,6 +36,24 @@ namespace haw.unitytutorium.w21
             
             SetErrorCount(0);
             SetHelpCount(0);
+        }
+
+        public void DisplayResults()
+        {
+            if (Panel != null) {
+                errorResult.text = errorCountLabel.text;
+                helpResult.text = helpCountLabel.text;
+                ratingResult.text = "";
+                Panel.SetActive(true);
+            }
+        }
+
+        public void HideResults()
+        {
+            if (Panel != null)
+            {
+                Panel.SetActive(false);
+            }
         }
 
         public void DisplayInstruction(string instruction)
