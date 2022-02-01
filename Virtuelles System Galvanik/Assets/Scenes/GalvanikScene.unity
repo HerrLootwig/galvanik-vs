@@ -4744,24 +4744,16 @@ MonoBehaviour:
             m_StringArgument: PowerOff
             m_BoolArgument: 0
           m_CallState: 2
-  - GameObject: {fileID: 0}
-    Instruction: 18/19 Polieren Sie den Armreif
-    HelpMsg: Nehmen Sie das Tuch
-    ErrorMsg: Das ist nicht das Richtige zum polieren
-    duration: 1
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 377514424}
-          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-          m_MethodName: SetTrigger
-          m_Mode: 5
+        - m_Target: {fileID: 1507269320}
+          m_TargetAssemblyTypeName: haw.unitytutorium.w21.InteractionManager, Assembly-CSharp
+          m_MethodName: HandleResults
+          m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: PolierenArmreif
+            m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
 --- !u!114 &1507269321
@@ -5104,17 +5096,149 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   userInterface: {fileID: 395455737}
-  defaultErrorMsg: 
+  defaultErrorMsg: Das ist falsch!
   interactions:
-  - GameObject: {fileID: 342437329}
-    Instruction: Anbringen Klemme
-    HelpMsg: Keine Hilfe
-    ErrorMsg: Fehler!
+  - GameObject: {fileID: 422632050}
+    Instruction: "1/19 Nehmen Sie das Stoffpad f\xFCr den Entfetter"
+    HelpMsg: "Beachten Sie die Ettiketten und die Gef\xE4\xDFe davor!"
+    ErrorMsg: Das ist nicht das gesuchte Stoffpad
+    duration: 2.5
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 31328792}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: PutPadOn
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 626538260}
+    Instruction: "2/19 Schalten Sie das Netzger\xE4t ein"
+    HelpMsg: Ein schwarzer Kippschalter
+    ErrorMsg: Das ist nicht der gesuchte Schalter
     duration: 1
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 377514424}
+        - m_Target: {fileID: 626538267}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: PowerOn
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 1697679541}
+    Instruction: "3/19 Stellen Sie das Netzger\xE4t auf 6 Volt ein"
+    HelpMsg: Ein runder Knopf
+    ErrorMsg: Das ist nicht der gesuchte Schalter
+    duration: 1.5
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1697679548}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Voltage6
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1698652384}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 422632056}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 342437329}
+    Instruction: 4/19 Stecken Sie die Elektroklemme an den Armreif
+    HelpMsg: "Sieht einem Flugsaurierkopf nicht un\xE4hnlich"
+    ErrorMsg: Das ist nicht die Elektroklemme
+    duration: 1.5
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 31328792}
           m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_MethodName: SetTrigger
           m_Mode: 5
@@ -5126,15 +5250,15 @@ MonoBehaviour:
             m_StringArgument: KlemmeAnArmreif
             m_BoolArgument: 0
           m_CallState: 2
-  - GameObject: {fileID: 0}
-    Instruction: Polieren Armreif
-    HelpMsg: Keine Hilfe
-    ErrorMsg: Fehler!
-    duration: 1
+  - GameObject: {fileID: 1898793942}
+    Instruction: "5/19 Fahren Sie mit der Elektrode \xFCber den Armreif"
+    HelpMsg: Das Teil, an dem eben das Stoffpad befestigt wurde
+    ErrorMsg: Das ist nicht die Elektrode
+    duration: 10
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 377514424}
+        - m_Target: {fileID: 31328792}
           m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
           m_MethodName: SetTrigger
           m_Mode: 5
@@ -5143,7 +5267,439 @@ MonoBehaviour:
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: PolierenArmreif
+            m_StringArgument: WorkOnArmreif
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 980218013}
+    Instruction: "6/19 Sp\xFClen Sie den Armreif mit Wasser ab"
+    HelpMsg: "Die Spr\xFChflasche"
+    ErrorMsg: Das ist nicht das Wasser
+    duration: 3
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1492272443}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Spray
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1698652384}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 422632056}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 84091961}
+    Instruction: "7/19 Nehmen Sie das Stoffpad f\xFCr den Aktivator"
+    HelpMsg: Das zweite Pad von links
+    ErrorMsg: Das ist nicht das gesuchte Stoffpad
+    duration: 3.5
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 31328792}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: ChangeToAktivator
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 1697679541}
+    Instruction: "8/19 Stellen Sie das Netzger\xE4t auf 2.7 Volt ein"
+    HelpMsg: Der runde Knopf
+    ErrorMsg: Das ist nicht der gesuchte Schalter
+    duration: 1.5
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1697679548}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Voltage2_7
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 769501765}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 84091967}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 1898793942}
+    Instruction: "9/19 Fahren Sie mit der Elektrode \xFCber den Armreif"
+    HelpMsg: Das Teil, an dem eben das Stoffpad befestigt wurde
+    ErrorMsg: Das ist nicht die Elektrode
+    duration: 10
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 31328792}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: WorkOnArmreif2
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 980218013}
+    Instruction: "10/19 Sp\xFClen Sie den Armreif mit Wasser ab"
+    HelpMsg: "Die Spr\xFChflasche"
+    ErrorMsg: Das ist nicht das Wasser
+    duration: 2.5
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1492272443}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Spray
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 769501765}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 84091967}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 495911220}
+    Instruction: "11/19 Nehmen Sie das Stoffpad f\xFCr den Elektrolyt"
+    HelpMsg: Beachten Sie das Etikett
+    ErrorMsg: Das ist nicht das gesuchte Stoffpad
+    duration: 3.5
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 31328792}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: ChangeToElektrolyt
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 1697679541}
+    Instruction: "12/19 Stellen Sie das Netzger\xE4t auf 4 Volt ein"
+    HelpMsg: Der runde Knopf
+    ErrorMsg: Das ist nicht der gesuchte Schalter
+    duration: 1.5
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1697679548}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Voltage4
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1998281469}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 495911226}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 1898793942}
+    Instruction: 13/19 Bearbeiten Sie den Armreif mit der Elektrode
+    HelpMsg: Das Teil, an dem eben das Stoffpad befestigt wurde
+    ErrorMsg: Das ist nicht die Elektrode
+    duration: 1
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 31328792}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: WorkOnArmreif3
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 68381007}
+    Instruction: 14/19 Nutzen Sie den Elektrolyt um das Stoffpad vollzusaugen
+    HelpMsg: Achten Sie auf das Etikett
+    ErrorMsg: Das ist nicht das Elektrolyt
+    duration: 1
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 31328792}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: PutInElektrolyt
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 1898793942}
+    Instruction: 15/19 Bearbeiten Sie den Armreif erneut mit der Elektrode
+    HelpMsg: Das Teil, an dem eben das Stoffpad befestigt wurde
+    ErrorMsg: Das ist nicht die Elektrode
+    duration: 1
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 31328792}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: WorkOnArmreif4
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 980218013}
+    Instruction: "16/19 Sp\xFClen Sie den Armreif mit Wasser ab"
+    HelpMsg: "Die Spr\xFChflasche"
+    ErrorMsg: Das ist nicht das Wasser
+    duration: 3
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1492272443}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Spray
+            m_BoolArgument: 0
+          m_CallState: 2
+  - GameObject: {fileID: 626538260}
+    Instruction: "17/19 Schalten Sie das Netzger\xE4t aus"
+    HelpMsg: Ein schwarzer Kippschalter
+    ErrorMsg: Das ist nicht der gesuchte Schalter
+    duration: 1
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 626538267}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: PowerOff
             m_BoolArgument: 0
           m_CallState: 2
         - m_Target: {fileID: 1660982169}
@@ -5172,7 +5728,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layerMask:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
 --- !u!4 &1660982171
 Transform:
   m_ObjectHideFlags: 0
