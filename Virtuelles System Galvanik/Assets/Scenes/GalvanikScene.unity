@@ -176,7 +176,6 @@ Transform:
   - {fileID: 711816658}
   - {fileID: 423595621}
   - {fileID: 1250319937}
-  - {fileID: 377514425}
   m_Father: {fileID: 0}
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -291,6 +290,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElektrodeAkt
       objectReference: {fileID: 0}
+    - target: {fileID: -2664311528190272100, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 32c7e857776b33046a63421f6ee33e91, type: 2}
     - target: {fileID: 919132149155446097, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
       propertyPath: m_Name
       value: StoffpadAktivator
@@ -1276,56 +1279,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   highlightMaterial: {fileID: 2100000, guid: a7504aab9cd766f42bfe0abbeaf53be3, type: 2}
---- !u!1 &377514423
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 377514425}
-  - component: {fileID: 377514424}
-  m_Layer: 0
-  m_Name: KlemmeArmreif
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!95 &377514424
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 377514423}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 97295ea788fdb3c4cb9ca44c2e25eac1, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!4 &377514425
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 377514423}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -15.710429, y: -8.885147, z: -13.166928}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 31328793}
-  m_RootOrder: 6
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &395455732
 GameObject:
   m_ObjectHideFlags: 0
@@ -2817,6 +2770,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElektrodeElek
       objectReference: {fileID: 0}
+    - target: {fileID: -2664311528190272100, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b0cda351c0e053a498548b6ee76e3069, type: 2}
     - target: {fileID: 919132149155446097, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
       propertyPath: m_Name
       value: StoffpadElektrolyt
@@ -4184,6 +4141,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 1641981967}
+          m_TargetAssemblyTypeName: ChangeMaterial, Assembly-CSharp
+          m_MethodName: setEntfetter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - GameObject: {fileID: 626538260}
     Instruction: "2/19 Schalten Sie das Netzger\xE4t ein"
     HelpMsg: Ein schwarzer Kippschalter
@@ -4400,6 +4369,18 @@ MonoBehaviour:
             m_StringArgument: ChangeToAktivator
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 1641981967}
+          m_TargetAssemblyTypeName: ChangeMaterial, Assembly-CSharp
+          m_MethodName: setAktivator
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - GameObject: {fileID: 1697679541}
     Instruction: "8/19 Stellen Sie das Netzger\xE4t auf 2.7 Volt ein"
     HelpMsg: Der runde Knopf
@@ -4574,6 +4555,18 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: ChangeToElektrolyt
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981967}
+          m_TargetAssemblyTypeName: ChangeMaterial, Assembly-CSharp
+          m_MethodName: setElektrolyt
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 1697679541}
@@ -5065,6 +5058,36 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -2664311528190272100, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
   m_PrefabInstance: {fileID: 1297781671}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1641981966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641981962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4256c8621189b9c4e80c922699d57526, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entfetter: {fileID: 0}
+  aktivator: {fileID: 0}
+  elektrolyt: {fileID: 0}
+--- !u!114 &1641981967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641981962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c48dfd9c27fe694a854921455b36998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entfetter: {fileID: 2100000, guid: 0cc3de03441ef264d9e2cc3c5d354c23, type: 2}
+  aktivator: {fileID: 2100000, guid: 32c7e857776b33046a63421f6ee33e91, type: 2}
+  elektrolyt: {fileID: 2100000, guid: b0cda351c0e053a498548b6ee76e3069, type: 2}
 --- !u!1 &1660982168
 GameObject:
   m_ObjectHideFlags: 0
@@ -7027,6 +7050,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2664311528190272100, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0cc3de03441ef264d9e2cc3c5d354c23, type: 2}
     - target: {fileID: 919132149155446097, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
       propertyPath: m_Name
       value: StoffpadEntfetter
