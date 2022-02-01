@@ -15,8 +15,9 @@ public class ShowStepManager : MonoBehaviour
     {
         currentStep = workingSteps[stepIndex];
         UpdateButtonState();
-        LoopCurrentAnimation();
+
         userInterface.DisplayInstruction(currentStep.Instruction);
+        LoopCurrentAnimation();
     }
 
     private void UpdateButtonState()
@@ -37,40 +38,32 @@ public class ShowStepManager : MonoBehaviour
 
     private void LoopCurrentAnimation()
     {
-        currentStep.animator.enabled = true;
         currentStep.animator.SetTrigger(currentStep.triggerAnimation);
     }
 
-    private void StopCurrentAnimation()
-    {
-        //currentStep.animator.SetTrigger(currentStep.triggerAnimation);
-        currentStep.GameObject.SetActive(false);
-        currentStep.GameObject.SetActive(true);
-    }
+    
 
     public void ShowNextStep()
     {
-        StopCurrentAnimation();
         stepIndex += 1;
         UpdateButtonState();
         if (stepIndex < workingSteps.Length && stepIndex >= 0)
         {
             currentStep = workingSteps[stepIndex];
-            LoopCurrentAnimation();
             userInterface.DisplayInstruction(currentStep.Instruction);
+            LoopCurrentAnimation();
         }
     }
 
     public void ShowPreviousStep()
     {
-        StopCurrentAnimation();
         stepIndex -= 1;
         UpdateButtonState();
         if (stepIndex >= 0 && stepIndex < workingSteps.Length)
         {
             currentStep = workingSteps[stepIndex];
-            LoopCurrentAnimation();
             userInterface.DisplayInstruction(currentStep.Instruction);
+            LoopCurrentAnimation();
         }
     }
 
