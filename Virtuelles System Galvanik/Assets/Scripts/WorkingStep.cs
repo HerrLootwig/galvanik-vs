@@ -8,6 +8,9 @@ using UnityEngine.Events;
         public GameObject GameObject;
         public string Instruction;
         public float duration;
+        public Animator animator;
+        public string triggerAnimation;
+
 
         public UnityEvent Response;
 }
