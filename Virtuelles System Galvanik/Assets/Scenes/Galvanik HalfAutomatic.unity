@@ -133,6 +133,7 @@ GameObject:
   m_Component:
   - component: {fileID: 31328793}
   - component: {fileID: 31328792}
+  - component: {fileID: 31328794}
   m_Layer: 0
   m_Name: ElektrodeUndPads
   m_TagString: Untagged
@@ -179,6 +180,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &31328794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 31328791}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5849be69f60f2ad4ea0cd2d2cfc56ae6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &68381007 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -359194201182950547, guid: 23b7b84debec42441aa0953b8577470a, type: 3}
@@ -629,6 +642,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 109546918}
   m_CullTransparentMesh: 1
+--- !u!1 &129872637 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4e83899be1da6034f846220379182992, type: 3}
+  m_PrefabInstance: {fileID: 657920872}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &136550993
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1444,6 +1462,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 495911222}
   visibleOnStart: 1
+--- !u!1 &520284882 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c9a6549172d4f49429a8f16629be364d, type: 3}
+  m_PrefabInstance: {fileID: 821597800}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &573219224 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ddf55c6f71c3d3c4e9815cdb59f13ba3, type: 3}
+  m_PrefabInstance: {fileID: 1250319936}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &600897783 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -359194201182950547, guid: 23b7b84debec42441aa0953b8577470a, type: 3}
@@ -1764,6 +1792,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e83899be1da6034f846220379182992, type: 3}
+--- !u!1 &692797641 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
+  m_PrefabInstance: {fileID: 2064135898}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &711816658 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
@@ -1910,6 +1943,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9a6549172d4f49429a8f16629be364d, type: 3}
+--- !u!1 &905020914 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
+  m_PrefabInstance: {fileID: 1297781671}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &980218013 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8079911067368225226, guid: fb672a36a67d45c4a90d9fd11feec943, type: 3}
@@ -2857,6 +2895,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axis: 0
+  axisVector: {x: 0, y: 0, z: 0}
   angle: 0.5
 --- !u!4 &1320627214 stripped
 Transform:
@@ -3532,7 +3571,7 @@ Animator:
   m_GameObject: {fileID: 1492272442}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 0802467f16074ff4ba347fff7c88bb7d, type: 2}
+  m_Controller: {fileID: 9100000, guid: 93180a398e045c145b8a67bfc2679133, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3541,6 +3580,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1492272444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1492272442}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09a02c006c06cc54eae63c77956c2d88, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1493293522
 GameObject:
   m_ObjectHideFlags: 0
@@ -4666,6 +4717,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   axis: 2
+  axisVector: {x: 0, y: 0, z: 0}
   angle: 0.05
 --- !u!135 &1697679546
 SphereCollider:
@@ -4767,11 +4819,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   userInterface: {fileID: 395455738}
   workingSteps:
-  - Instruction: "1/17 Nehmen Sie das Stoffpad f\xFCr den Entfetter"
+  - currentObjekt: {fileID: 692797641}
+    Instruction: "1/17 Nehmen Sie das Stoffpad f\xFCr den Entfetter"
     description: "Erkl\xE4rung zum Entfetter"
-    duration: 1
     animator: {fileID: 31328792}
-    triggerAnimation: PutPadOn
+    triggerAnimation: 
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -4787,9 +4839,21 @@ MonoBehaviour:
             m_StringArgument: backToStart
             m_BoolArgument: 0
           m_CallState: 2
-  - Instruction: "2/17 Schalten Sie das Netzger\xE4t ein"
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 129872637}
+    Instruction: "2/17 Schalten Sie das Netzger\xE4t ein"
     description: "Erkl\xE4rung zu Netzger\xE4t"
-    duration: 1
     animator: {fileID: 626538267}
     triggerAnimation: PowerOn
     Response:
@@ -4807,9 +4871,69 @@ MonoBehaviour:
             m_StringArgument: Hold0V
             m_BoolArgument: 0
           m_CallState: 2
-  - Instruction: "3/17 Stellen sie das Netzger\xE4t auf 6 Volt ein"
+        - m_Target: {fileID: 1698652384}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 422632056}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1492272442}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 129872637}
+    Instruction: "3/17 Stellen sie das Netzger\xE4t auf 6 Volt ein"
     description: 
-    duration: 1
     animator: {fileID: 1697679548}
     triggerAnimation: Voltage6
     Response:
@@ -4827,81 +4951,525 @@ MonoBehaviour:
             m_StringArgument: HoldOn
             m_BoolArgument: 0
           m_CallState: 2
-  - Instruction: 4/17 Stecken Sie die Klemme an den Armreif
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1698652384}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 422632056}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 520284882}
+    Instruction: 4/17 Stecken Sie die Klemme an den Armreif
     description: 
-    duration: 1
     animator: {fileID: 31328792}
-    triggerAnimation: KlemmeAnArmreif
+    triggerAnimation: 
     Response:
       m_PersistentCalls:
-        m_Calls: []
-  - Instruction: "5/17 Fahren Sie mit der Elektrode \xFCber den Armreif"
+        m_Calls:
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 31328791}
+    Instruction: "5/17 Fahren Sie mit der Elektrode \xFCber den Armreif"
     description: 
-    duration: 1
     animator: {fileID: 31328792}
-    triggerAnimation: WorkOnArmreif
+    triggerAnimation: 
     Response:
       m_PersistentCalls:
-        m_Calls: []
-  - Instruction: "6/17 Sp\xFClen Sie den Armreif mit Wasser ab"
+        m_Calls:
+        - m_Target: {fileID: 1698652384}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 422632056}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1492272444}
+          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
+          m_MethodName: SetInactive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: aktiviereArmreifbearbeitung
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 1492272442}
+    Instruction: "6/17 Sp\xFClen Sie den Armreif mit Wasser ab"
     description: 
-    duration: 1
-    animator: {fileID: 0}
-    triggerAnimation: KlemmeAnArmreif
+    animator: {fileID: 1492272443}
+    triggerAnimation: 
     Response:
       m_PersistentCalls:
-        m_Calls: []
-  - Instruction: "7/17 Nehmen Sie das Stoffpad f\xFCr den Aktivator"
+        m_Calls:
+        - m_Target: {fileID: 1698652384}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 422632056}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1492272444}
+          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
+          m_MethodName: SetActive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 3
+            m_FloatArgument: 0
+            m_StringArgument: aktiviereArmreifbearbeitung
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 31328791}
+    Instruction: "7/17 Nehmen Sie das Stoffpad f\xFCr den Aktivator"
     description: 
-    duration: 1
     animator: {fileID: 31328792}
     triggerAnimation: ChangeToAktivator
     Response:
       m_PersistentCalls:
-        m_Calls: []
-  - Instruction: "8/17 Stellen Sie das Netzger\xE4t auf 2.7 Volt ein"
+        m_Calls:
+        - m_Target: {fileID: 1492272444}
+          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
+          m_MethodName: SetInactive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: StehenBleiben
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 4
+            m_FloatArgument: 0
+            m_StringArgument: aktiviereAktivator
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 129872637}
+    Instruction: "8/17 Stellen Sie das Netzger\xE4t auf 2.7 Volt ein"
     description: 
-    duration: 1
     animator: {fileID: 1697679548}
     triggerAnimation: Voltage2_7
     Response:
       m_PersistentCalls:
-        m_Calls: []
-  - Instruction: "9/17 Fahren Sie mit der Elektrode \xFCber den Armreif"
+        m_Calls:
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 769501765}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 84091967}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 905020914}
+    Instruction: "9/17 Fahren Sie mit der Elektrode \xFCber den Armreif"
     description: 
-    duration: 1
     animator: {fileID: 31328792}
     triggerAnimation: WorkOnArmreif2
     Response:
       m_PersistentCalls:
-        m_Calls: []
-  - Instruction: "10/17 Sp\xFClen Sie den Armreif mit Wasser ab"
+        m_Calls:
+        - m_Target: {fileID: 1492272444}
+          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
+          m_MethodName: SetInactive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: StehenBleiben
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 5
+            m_FloatArgument: 0
+            m_StringArgument: aktiviereBearbeitenAktivator
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 1492272442}
+    Instruction: "10/17 Sp\xFClen Sie den Armreif mit Wasser ab"
     description: 
-    duration: 1
-    animator: {fileID: 0}
-    triggerAnimation: KlemmeAnArmreif
+    animator: {fileID: 1492272443}
+    triggerAnimation: Spray
     Response:
       m_PersistentCalls:
-        m_Calls: []
-  - Instruction: "11/17 Nehmen Sie das Stoffpad f\xFCr den Elektrolyt"
+        m_Calls:
+        - m_Target: {fileID: 769501765}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 84091967}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1492272444}
+          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
+          m_MethodName: SetActive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Spray
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 6
+            m_FloatArgument: 0
+            m_StringArgument: aktiviereElektrolyt
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 31328791}
+    Instruction: "11/17 Nehmen Sie das Stoffpad f\xFCr den Elektrolyt"
     description: 
-    duration: 1
     animator: {fileID: 31328792}
     triggerAnimation: ChangeToElektrolyt
     Response:
       m_PersistentCalls:
-        m_Calls: []
-  - Instruction: "12/17 Stellen Sie das Netzger\xE4t auf 4 Volt ein"
+        m_Calls:
+        - m_Target: {fileID: 1492272444}
+          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
+          m_MethodName: SetInactive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: StehenBleiben
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 7
+            m_FloatArgument: 0
+            m_StringArgument: aktiviereElektrolyt
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 129872637}
+    Instruction: "12/17 Stellen Sie das Netzger\xE4t auf 4 Volt ein"
     description: 
-    duration: 1
     animator: {fileID: 1697679548}
     triggerAnimation: Voltage4
     Response:
       m_PersistentCalls:
-        m_Calls: []
-  - Instruction: 13/17 Bearbeiten Sie den Armreif mit der Elektrode
+        m_Calls:
+        - m_Target: {fileID: 1998281469}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 495911226}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: invisible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1097918775}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981964}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 31328791}
+    Instruction: 13/17 Bearbeiten Sie den Armreif mit der Elektrode
     description: 
-    duration: 1
     animator: {fileID: 31328792}
     triggerAnimation: WorkOnArmreif3
     Response:
@@ -4919,27 +5487,75 @@ MonoBehaviour:
             m_StringArgument: Hold4V
             m_BoolArgument: 0
           m_CallState: 2
-  - Instruction: 14/17 Befeuchten sie mit dem Elektrolyt das Stoffpad
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 8
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 31328791}
+    Instruction: 14/17 Befeuchten sie mit dem Elektrolyt das Stoffpad
     description: 
-    duration: 1
     animator: {fileID: 31328792}
     triggerAnimation: PutInElektrolyt
     Response:
       m_PersistentCalls:
-        m_Calls: []
-  - Instruction: 15/17 Bearbeiten Sie den Armreif erneut mit der Elektrode
+        m_Calls:
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 9
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 31328791}
+    Instruction: 15/17 Bearbeiten Sie den Armreif erneut mit der Elektrode
     description: 
-    duration: 1
     animator: {fileID: 31328792}
     triggerAnimation: WorkOnArmreif4
     Response:
       m_PersistentCalls:
-        m_Calls: []
-  - Instruction: "16/17 Sp\xFClen Sie den Armreif mit Wasser ab"
+        m_Calls:
+        - m_Target: {fileID: 1492272444}
+          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
+          m_MethodName: SetInactive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: StehenBleiben
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 10
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 1492272442}
+    Instruction: "16/17 Sp\xFClen Sie den Armreif mit Wasser ab"
     description: 
-    duration: 1
-    animator: {fileID: 0}
-    triggerAnimation: KlemmeAnArmreif
+    animator: {fileID: 1492272443}
+    triggerAnimation: 
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -4955,14 +5571,70 @@ MonoBehaviour:
             m_StringArgument: HoldOn
             m_BoolArgument: 0
           m_CallState: 2
-  - Instruction: "17/17 Schalten Sie das Netzger\xE4t aus"
+        - m_Target: {fileID: 1492272444}
+          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
+          m_MethodName: SetActive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 11
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 129872637}
+    Instruction: "17/17 Schalten Sie das Netzger\xE4t aus"
     description: 
-    duration: 1
     animator: {fileID: 626538267}
     triggerAnimation: PowerOff
     Response:
       m_PersistentCalls:
-        m_Calls: []
+        m_Calls:
+        - m_Target: {fileID: 1492272444}
+          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
+          m_MethodName: SetInactive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: StehenBleiben
+            m_BoolArgument: 0
+          m_CallState: 2
+  - currentObjekt: {fileID: 573219224}
+    Instruction: "18/18 L\xF6sen Sie die Klemme vom Armreif"
+    description: 
+    animator: {fileID: 31328792}
+    triggerAnimation: PowerOff
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 12
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!4 &1701781018
 Transform:
   m_ObjectHideFlags: 0
