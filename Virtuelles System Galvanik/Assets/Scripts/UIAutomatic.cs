@@ -7,6 +7,7 @@ public class UIAutomatic : MonoBehaviour
 {
     [Header("Text Labels")]
     [SerializeField] private TextMeshProUGUI instructionLabel = null;
+    [SerializeField] private TextMeshProUGUI descriptionLabel = null;
     [SerializeField] private GameObject nextButton;
     [SerializeField] private GameObject previousButton;
 
@@ -15,6 +16,12 @@ public class UIAutomatic : MonoBehaviour
     {
 
         instructionLabel.SetText(instruction);
+    }
+
+    public void DisplayDescription(string description)
+    {
+
+        descriptionLabel.SetText(description);
     }
 
     public void HidePreviousButton()

@@ -17,6 +17,7 @@ public class ShowStepManager : MonoBehaviour
         UpdateButtonState();
 
         userInterface.DisplayInstruction(currentStep.Instruction);
+        userInterface.DisplayDescription(currentStep.description);
         LoopCurrentAnimation();
     }
 
@@ -51,6 +52,7 @@ public class ShowStepManager : MonoBehaviour
         {
             currentStep = workingSteps[stepIndex];
             userInterface.DisplayInstruction(currentStep.Instruction);
+            userInterface.DisplayDescription(currentStep.description);
             LoopCurrentAnimation();
         }
     }
@@ -63,6 +65,7 @@ public class ShowStepManager : MonoBehaviour
         {
             currentStep = workingSteps[stepIndex];
             userInterface.DisplayInstruction(currentStep.Instruction);
+            userInterface.DisplayDescription(currentStep.description);
             LoopCurrentAnimation();
         }
     }

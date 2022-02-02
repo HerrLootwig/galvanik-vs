@@ -6,6 +6,7 @@ using UnityEngine.Events;
     public struct WorkingStep
     {
     public string Instruction;
+    public string description;
     public float duration;
     public Animator animator;
     public string triggerAnimation;
