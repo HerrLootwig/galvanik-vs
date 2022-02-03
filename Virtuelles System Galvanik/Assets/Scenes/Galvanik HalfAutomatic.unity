@@ -935,8 +935,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 20
-  m_fontSizeBase: 20
+  m_fontSize: 14
+  m_fontSizeBase: 14
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -971,7 +971,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -175.17308, z: 0, w: -172.93803}
+  m_margin: {x: 13.552254, y: -175.17308, z: 12.769371, w: -172.93803}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -4685,7 +4685,11 @@ MonoBehaviour:
   userInterface: {fileID: 395455738}
   workingSteps:
   - Instruction: "1/18 Nehmen Sie das Stoffpad f\xFCr den Entfetter"
-    description: "Erkl\xE4rung zum Entfetter"
+    description: "Der Entfetter dient zum Entfernen von Schmutz und Oxidationsschichten.
+      Ein Stoffpad dient als Isolation zwischen Elektrode und Werkst\xFCck und sollte
+      immer nur f\xFCr eine Fl\xFCssigkeit verwendet werden. Es kann entweder im
+      Becher in der Fl\xFCssigkeit gelagert werden oder mit Wasser gr\xFCndlich gereinigt
+      und getrocknet werden."
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -4726,7 +4730,9 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: "2/18 Schalten Sie das Netzger\xE4t ein"
-    description: "Erkl\xE4rung zu Netzger\xE4t"
+    description: "Das schwarze Kabel muss beim Minuskontakt eingesteckt sein, das
+      rote Kabel beim Pluskontakt. Die beiden Kabelenden oder die angeschlossenen
+      Teile d\xFCrfen sich nicht ber\xFChren, da sonst ein Kurzschluss entsteht."
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -4839,7 +4845,9 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: "3/18 Stellen sie das Netzger\xE4t auf 6 Volt ein"
-    description: 
+    description: "Der Entfetter kann mit und ohne Strom verwendet werden. Mit Strom
+      ist die Wirkung des Entfetters deutlich verbessert. Eine sorgf\xE4ltige Vorbereitung
+      des Werkst\xFCckes ist Voraussetzung f\xFCr eine gelungene Goldbeschichtung."
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -4928,7 +4936,10 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: 4/17 Stecken Sie die Klemme an den Armreif
-    description: 
+    description: "Die Elektroklemme oder Krokoklemme ist mit dem Minuskontakt verbunden.
+      Ber\xFChrt man das Werkst\xFCck nun mit der Elektrode im Stoffpad, schlie\xDFt
+      sich der Stromkreis. Der Armreif ist nicht verchromt, andernfalls m\xFCsste
+      zu Beginn die Chromschicht entfernt werden."
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -4957,7 +4968,11 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: "5/18 Fahren Sie mit der Elektrode \xFCber den Armreif"
-    description: 
+    description: "Die Edelstahl-Elektrode, auf der sich das Stoffpad befindet, ist
+      mit dem Pluskontakt verbunden, es wird also eine anodische Entfettung durchgef\xFChrt.
+      Die Elektrode wird mit leicht kreisenden Bewegungen \xFCber das Werkst\xFCck
+      gef\xFChrt, es bilden sich feine Sauerstoffbl\xE4schen und die Verschmutzungen
+      werden gel\xF6st."
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5046,7 +5061,10 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: "6/18 Sp\xFClen Sie den Armreif mit Wasser ab"
-    description: 
+    description: "Am besten wird hier destilliertes Wasser verwendet, Bestandteile
+      im Leitungswasser wie etwa Kalk k\xF6nnen sich bei der Beschichtung negativ
+      auswirken. Das Werkst\xFCck muss vollst\xE4ndig mit Wasser gesp\xFClt und die
+      Reste des Entfetters entfernt werden."
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5099,7 +5117,9 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: "7/18 Nehmen Sie das Stoffpad f\xFCr den Aktivator"
-    description: 
+    description: "Der Aktivator entfernt die Oxidschicht von nickelhaltigen Werkst\xFCcken,
+      wie diesem Edelstahl-Armreif. In dem Stoffpad befindet sich auch in diesem
+      Fall eine Elektrode aus Edelstahl. "
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5224,7 +5244,9 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: "8/18 Stellen Sie das Netzger\xE4t auf 2.7 Volt ein"
-    description: 
+    description: "Zum Aktivieren sollte mit m\xF6glichst wenig Volt gearbeitet werden.
+      Bei zu hoher Voltzahl kann es zu unerw\xFCnschten schwarzen Verf\xE4rbungen
+      am Werkst\xFCck kommen."
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5301,7 +5323,11 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: "9/18 Fahren Sie mit der Elektrode \xFCber den Armreif"
-    description: 
+    description: "Es wird in kreisenden Bewegungen mit der Elektrode \xFCber das
+      Werkst\xFCck gefahren und es sollte nicht an einer Stelle verharrt werden.
+      Sollten sich dunkle Flecken bilden, sollte der Vorgang sofort gestoppt und
+      die Flecken mit einem weichen Tuch wegpoliert werden. Grund hierf\xFCr k\xF6nnen
+      eine zu hohe Voltzahl oder ein nicht nickelhaltiges Werkst\xFCck sein. "
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5342,7 +5368,10 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: "10/18 Sp\xFClen Sie den Armreif mit Wasser ab"
-    description: 
+    description: "Am besten wird hier destilliertes Wasser verwendet, Bestandteile
+      im Leitungswasser wie etwa Kalk k\xF6nnen sich bei der Beschichtung negativ
+      auswirken. Das Werkst\xFCck muss vollst\xE4ndig mit Wasser gesp\xFClt werden,
+      um die Reste des Aktivators zu entfernen."
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5395,7 +5424,9 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: "11/18 Nehmen Sie das Stoffpad f\xFCr den Elektrolyt"
-    description: 
+    description: "Der Goldelektrolyt 24 Karat 8g/l dient der eigentlichen Goldbeschichtung.
+      Auch hier wird eine Edelstahlelektrode verwendet, sollte eine dickere Goldschicht
+      gew\xFCnscht sein, empfiehlt sich eine Platinelektrode."
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5520,7 +5551,10 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: "12/18 Stellen Sie das Netzger\xE4t auf 4 Volt ein"
-    description: 
+    description: "Es empfiehlt sich, mit wenig Volt zu beginnen und dann ggf. die
+      Spannung zu erh\xF6hen, falls sich das Gold zu langsam absetzt und eine h\xF6here
+      Arbeitsgeschwindigkeit gew\xFCnscht ist. Die Zahlen k\xF6nne je nach Werkst\xFCck
+      und dessen Leitf\xE4higkeit variieren."
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5597,7 +5631,9 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: 13/18 Bearbeiten Sie den Armreif mit der Elektrode
-    description: 
+    description: "Der Goldelektrolyt wird in kleinen, langsam kreisenden Bewegungen
+      aufgetragen. Es sollte nicht auf einer Stelle verharrt werden, da dies zu dunklen
+      Stellen f\xFChren kann."
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5638,7 +5674,9 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: 14/18 Befeuchten sie mit dem Elektrolyt das Stoffpad
-    description: 
+    description: "Zwischendurch muss das Stoffpad immer wieder neu mit Elektrolyt
+      benetzt werden, um eine gleichm\xE4\xDFige Goldschicht auf das gesamte Werkst\xFCck
+      aufbringen zu k\xF6nnen."
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5667,7 +5705,8 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: 15/18 Bearbeiten Sie den Armreif erneut mit der Elektrode
-    description: 
+    description: "Der Vorgang des Vergoldens erfordert etwas Zeit und ist in der
+      Animation verk\xFCrzt dargestellt."
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5708,7 +5747,10 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: "16/18 Sp\xFClen Sie den Armreif mit Wasser ab"
-    description: 
+    description: "Am besten wird hier destilliertes Wasser verwendet, Bestandteile
+      im Leitungswasser wie etwa Kalk k\xF6nnen sich bei der Beschichtung negativ
+      auswirken. Das Werkst\xFCck muss vollst\xE4ndig mit Wasser gesp\xFClt werden
+      und Reste des Elektrolyts zu entfernen."
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5761,7 +5803,9 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: "17/18 Schalten Sie das Netzger\xE4t aus"
-    description: 
+    description: "Das Werkst\xFCck ist sofort fertig und es ist keine Trockenzeit
+      n\xF6tig, bei stark beanspruchten Teilen, z.B. am Auto kann eine Versieglung
+      sinnvoll sein, wodurch die Beschichtung noch langlebiger wird."
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5802,7 +5846,10 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - Instruction: "18/18 L\xF6sen Sie die Klemme vom Armreif"
-    description: 
+    description: "Nun kann das Werkst\xFCck je nach Wunsch noch mit Polierpaste und
+      einem weichen Tuch, z.B. aus Microfaser, poliert werden. Man sollte aber beachten,
+      dass bei zu intensivem polieren die Metallschicht mit der Zeit wieder abgerieben
+      werden kann."
     Response:
       m_PersistentCalls:
         m_Calls:
