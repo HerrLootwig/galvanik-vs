@@ -192,6 +192,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5849be69f60f2ad4ea0cd2d2cfc56ae6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!4 &50187279 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2577548232221058511, guid: fb672a36a67d45c4a90d9fd11feec943, type: 3}
+  m_PrefabInstance: {fileID: 1487946693}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &68381007 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -359194201182950547, guid: 23b7b84debec42441aa0953b8577470a, type: 3}
@@ -211,19 +216,6 @@ CapsuleCollider:
   m_Height: 0.0216512
   m_Direction: 1
   m_Center: {x: 4.656613e-10, y: 0, z: 0}
---- !u!114 &68381012
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 68381007}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb539eae1625ab446b8afd40ae5df386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  highlightMaterial: {fileID: 2100000, guid: a7504aab9cd766f42bfe0abbeaf53be3, type: 2}
 --- !u!1001 &78686663
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -303,6 +295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElektrodeAkt
       objectReference: {fileID: 0}
+    - target: {fileID: -2664311528190272100, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 32c7e857776b33046a63421f6ee33e91, type: 2}
     - target: {fileID: 919132149155446097, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
       propertyPath: m_Name
       value: StoffpadAktivator
@@ -348,19 +344,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.117777824, y: 0.023071965, z: 0.02531007}
   m_Center: {x: 0.21196067, y: -0.000111679234, z: 0.00069971225}
---- !u!114 &84091966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 84091961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb539eae1625ab446b8afd40ae5df386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  highlightMaterial: {fileID: 2100000, guid: a7504aab9cd766f42bfe0abbeaf53be3, type: 2}
 --- !u!114 &84091967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -642,11 +625,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 109546918}
   m_CullTransparentMesh: 1
---- !u!1 &129872637 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 4e83899be1da6034f846220379182992, type: 3}
-  m_PrefabInstance: {fileID: 657920872}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &136550993
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1199,19 +1177,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.012610865, y: 0.00091656914, z: 0.0033428387}
   m_Center: {x: -0.0017229808, y: -0.000013377289, z: 0.000844643}
---- !u!114 &342437334
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 342437329}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb539eae1625ab446b8afd40ae5df386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  highlightMaterial: {fileID: 2100000, guid: a7504aab9cd766f42bfe0abbeaf53be3, type: 2}
 --- !u!1 &395455732
 GameObject:
   m_ObjectHideFlags: 0
@@ -1380,19 +1345,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.117777824, y: 0.02307196, z: 0.02531006}
   m_Center: {x: 0.21196073, y: -0.00011168558, z: 0.00069959456}
---- !u!114 &422632055
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 422632050}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb539eae1625ab446b8afd40ae5df386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  highlightMaterial: {fileID: 2100000, guid: a7504aab9cd766f42bfe0abbeaf53be3, type: 2}
 --- !u!114 &422632056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1435,19 +1387,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.117777824, y: 0.023071965, z: 0.02531007}
   m_Center: {x: 0.21196061, y: -0.000111679234, z: 0.00069959305}
---- !u!114 &495911225
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 495911220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb539eae1625ab446b8afd40ae5df386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  highlightMaterial: {fileID: 2100000, guid: a7504aab9cd766f42bfe0abbeaf53be3, type: 2}
 --- !u!114 &495911226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1462,16 +1401,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rend: {fileID: 495911222}
   visibleOnStart: 1
---- !u!1 &520284882 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: c9a6549172d4f49429a8f16629be364d, type: 3}
-  m_PrefabInstance: {fileID: 821597800}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &573219224 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ddf55c6f71c3d3c4e9815cdb59f13ba3, type: 3}
-  m_PrefabInstance: {fileID: 1250319936}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &600897783 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -359194201182950547, guid: 23b7b84debec42441aa0953b8577470a, type: 3}
@@ -1491,19 +1420,6 @@ CapsuleCollider:
   m_Height: 0.0216512
   m_Direction: 1
   m_Center: {x: 4.656613e-10, y: 0, z: 0}
---- !u!114 &600897788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 600897783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb539eae1625ab446b8afd40ae5df386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  highlightMaterial: {fileID: 2100000, guid: a7504aab9cd766f42bfe0abbeaf53be3, type: 2}
 --- !u!1 &626538260 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -516098083770646512, guid: 4e83899be1da6034f846220379182992, type: 3}
@@ -1522,6 +1438,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
+--- !u!4 &626538262 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4083501151425157549, guid: 4e83899be1da6034f846220379182992, type: 3}
+  m_PrefabInstance: {fileID: 657920872}
+  m_PrefabAsset: {fileID: 0}
 --- !u!65 &626538265
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1535,19 +1456,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.00822659, y: 0.008285521, z: 0.019999998}
   m_Center: {x: -4.785868e-10, y: -0.00043359044, z: 6.4627782e-12}
---- !u!114 &626538266
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626538260}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb539eae1625ab446b8afd40ae5df386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  highlightMaterial: {fileID: 2100000, guid: a7504aab9cd766f42bfe0abbeaf53be3, type: 2}
 --- !u!95 &626538267
 Animator:
   serializedVersion: 3
@@ -1792,11 +1700,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4e83899be1da6034f846220379182992, type: 3}
---- !u!1 &692797641 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
-  m_PrefabInstance: {fileID: 2064135898}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &711816658 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
@@ -1943,29 +1846,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c9a6549172d4f49429a8f16629be364d, type: 3}
---- !u!1 &905020914 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
-  m_PrefabInstance: {fileID: 1297781671}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &980218013 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8079911067368225226, guid: fb672a36a67d45c4a90d9fd11feec943, type: 3}
   m_PrefabInstance: {fileID: 1487946693}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &980218017
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 980218013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb539eae1625ab446b8afd40ae5df386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  highlightMaterial: {fileID: 2100000, guid: a7504aab9cd766f42bfe0abbeaf53be3, type: 2}
 --- !u!136 &980218018
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -2250,22 +2135,14 @@ CapsuleCollider:
   m_Height: 0.0216512
   m_Direction: 1
   m_Center: {x: 4.656613e-10, y: 0, z: 0}
---- !u!114 &1083452966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1083452961}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb539eae1625ab446b8afd40ae5df386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  highlightMaterial: {fileID: 2100000, guid: a7504aab9cd766f42bfe0abbeaf53be3, type: 2}
 --- !u!1 &1097918773 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2956085156440476647, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
+  m_PrefabInstance: {fileID: 1297781671}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1097918774 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5606463060152611082, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
   m_PrefabInstance: {fileID: 1297781671}
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1097918775
@@ -2370,6 +2247,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ElektrodeElek
       objectReference: {fileID: 0}
+    - target: {fileID: -2664311528190272100, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: b0cda351c0e053a498548b6ee76e3069, type: 2}
     - target: {fileID: 919132149155446097, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
       propertyPath: m_Name
       value: StoffpadElektrolyt
@@ -2572,7 +2453,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -296, y: -27}
+  m_AnchoredPosition: {x: -300, y: -25}
   m_SizeDelta: {x: 200, y: 400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1216362033
@@ -2877,26 +2758,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
---- !u!1 &1309191400 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6234412537622772635, guid: fb672a36a67d45c4a90d9fd11feec943, type: 3}
-  m_PrefabInstance: {fileID: 1487946693}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1309191404
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1309191400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb85d2f64717bc04f8bc3510793fb2e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axis: 0
-  axisVector: {x: 0, y: 0, z: 0}
-  angle: 0.5
 --- !u!4 &1320627214 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
@@ -3806,8 +3667,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507269314}
-  m_LocalRotation: {x: -0.019254504, y: 0.7368882, z: 0.021007007, w: 0.6754138}
-  m_LocalPosition: {x: 2.4, y: 11.249597, z: 17.7}
+  m_LocalRotation: {x: 0.033582315, y: 0.8312973, z: -0.050527662, w: 0.55250704}
+  m_LocalPosition: {x: 7.36, y: 11.249597, z: 14.821}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4610,6 +4471,21 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -2664311528190272100, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
   m_PrefabInstance: {fileID: 1297781671}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1641981967
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1641981962}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c48dfd9c27fe694a854921455b36998, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entfetter: {fileID: 2100000, guid: 0cc3de03441ef264d9e2cc3c5d354c23, type: 2}
+  aktivator: {fileID: 2100000, guid: 32c7e857776b33046a63421f6ee33e91, type: 2}
+  elektrolyt: {fileID: 2100000, guid: b0cda351c0e053a498548b6ee76e3069, type: 2}
 --- !u!1001 &1695268823
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4704,21 +4580,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -5568371526223589888, guid: 4e83899be1da6034f846220379182992, type: 3}
   m_PrefabInstance: {fileID: 657920872}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1697679545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+--- !u!4 &1697679542 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -2577548232221058511, guid: 4e83899be1da6034f846220379182992, type: 3}
+  m_PrefabInstance: {fileID: 657920872}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1697679541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb85d2f64717bc04f8bc3510793fb2e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  axis: 2
-  axisVector: {x: 0, y: 0, z: 0}
-  angle: 0.05
 --- !u!135 &1697679546
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -4732,19 +4598,6 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.009999999
   m_Center: {x: 0.000000059604645, y: -0.000000059604645, z: -0.000000059604645}
---- !u!114 &1697679547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1697679541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb539eae1625ab446b8afd40ae5df386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  highlightMaterial: {fileID: 2100000, guid: a7504aab9cd766f42bfe0abbeaf53be3, type: 2}
 --- !u!95 &1697679548
 Animator:
   serializedVersion: 3
@@ -4764,6 +4617,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1697679549
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1697679541}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e327e2e1cf56d4e4aa3ea9d8b6a60fcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1698652380 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2956085156440476647, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
@@ -4819,11 +4684,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   userInterface: {fileID: 395455738}
   workingSteps:
-  - currentObjekt: {fileID: 692797641}
-    Instruction: "1/17 Nehmen Sie das Stoffpad f\xFCr den Entfetter"
+  - Instruction: "1/18 Nehmen Sie das Stoffpad f\xFCr den Entfetter"
     description: "Erkl\xE4rung zum Entfetter"
-    animator: {fileID: 31328792}
-    triggerAnimation: 
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -4851,18 +4713,27 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - currentObjekt: {fileID: 129872637}
-    Instruction: "2/17 Schalten Sie das Netzger\xE4t ein"
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1320627214}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Instruction: "2/18 Schalten Sie das Netzger\xE4t ein"
     description: "Erkl\xE4rung zu Netzger\xE4t"
-    animator: {fileID: 626538267}
-    triggerAnimation: PowerOn
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 1697679548}
-          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-          m_MethodName: SetTrigger
-          m_Mode: 5
+        - m_Target: {fileID: 1697679549}
+          m_TargetAssemblyTypeName: VoltageAdjustAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4931,11 +4802,44 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - currentObjekt: {fileID: 129872637}
-    Instruction: "3/17 Stellen sie das Netzger\xE4t auf 6 Volt ein"
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 626538262}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981967}
+          m_TargetAssemblyTypeName: ChangeMaterial, Assembly-CSharp
+          m_MethodName: setEntfetter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 626538267}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: PowerOn
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Instruction: "3/18 Stellen sie das Netzger\xE4t auf 6 Volt ein"
     description: 
-    animator: {fileID: 1697679548}
-    triggerAnimation: Voltage6
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -4999,11 +4903,32 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - currentObjekt: {fileID: 520284882}
-    Instruction: 4/17 Stecken Sie die Klemme an den Armreif
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1697679542}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1697679549}
+          m_TargetAssemblyTypeName: VoltageAdjustAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Instruction: 4/17 Stecken Sie die Klemme an den Armreif
     description: 
-    animator: {fileID: 31328792}
-    triggerAnimation: 
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5019,11 +4944,20 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - currentObjekt: {fileID: 31328791}
-    Instruction: "5/17 Fahren Sie mit der Elektrode \xFCber den Armreif"
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 423595621}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Instruction: "5/18 Fahren Sie mit der Elektrode \xFCber den Armreif"
     description: 
-    animator: {fileID: 31328792}
-    triggerAnimation: 
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5099,14 +5033,124 @@ MonoBehaviour:
             m_StringArgument: aktiviereArmreifbearbeitung
             m_BoolArgument: 0
           m_CallState: 2
-  - currentObjekt: {fileID: 1492272442}
-    Instruction: "6/17 Sp\xFClen Sie den Armreif mit Wasser ab"
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1097918774}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Instruction: "6/18 Sp\xFClen Sie den Armreif mit Wasser ab"
     description: 
-    animator: {fileID: 1492272443}
-    triggerAnimation: 
     Response:
       m_PersistentCalls:
         m_Calls:
+        - m_Target: {fileID: 1492272444}
+          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
+          m_MethodName: SetActive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 3
+            m_FloatArgument: 0
+            m_StringArgument: aktiviereArmreifbearbeitung
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 50187279}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981967}
+          m_TargetAssemblyTypeName: ChangeMaterial, Assembly-CSharp
+          m_MethodName: setEntfetter
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Instruction: "7/18 Nehmen Sie das Stoffpad f\xFCr den Aktivator"
+    description: 
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1492272444}
+          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
+          m_MethodName: SetInactive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: StehenBleiben
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 4
+            m_FloatArgument: 0
+            m_StringArgument: aktiviereAktivator
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 711816658}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981967}
+          m_TargetAssemblyTypeName: ChangeMaterial, Assembly-CSharp
+          m_MethodName: setAktivator
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
         - m_Target: {fileID: 1698652384}
           m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
           m_MethodName: visible
@@ -5155,9 +5199,9 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 1492272444}
-          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
-          m_MethodName: SetActive
+        - m_Target: {fileID: 769501765}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
@@ -5167,55 +5211,20 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 31328794}
-          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
-          m_MethodName: setInteger
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 3
-            m_FloatArgument: 0
-            m_StringArgument: aktiviereArmreifbearbeitung
-            m_BoolArgument: 0
-          m_CallState: 2
-  - currentObjekt: {fileID: 31328791}
-    Instruction: "7/17 Nehmen Sie das Stoffpad f\xFCr den Aktivator"
-    description: 
-    animator: {fileID: 31328792}
-    triggerAnimation: ChangeToAktivator
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1492272444}
-          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
-          m_MethodName: SetInactive
+        - m_Target: {fileID: 84091967}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: StehenBleiben
+            m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 31328794}
-          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
-          m_MethodName: setInteger
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 4
-            m_FloatArgument: 0
-            m_StringArgument: aktiviereAktivator
-            m_BoolArgument: 0
-          m_CallState: 2
-  - currentObjekt: {fileID: 129872637}
-    Instruction: "8/17 Stellen Sie das Netzger\xE4t auf 2.7 Volt ein"
+  - Instruction: "8/18 Stellen Sie das Netzger\xE4t auf 2.7 Volt ein"
     description: 
-    animator: {fileID: 1697679548}
-    triggerAnimation: Voltage2_7
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5267,11 +5276,32 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - currentObjekt: {fileID: 905020914}
-    Instruction: "9/17 Fahren Sie mit der Elektrode \xFCber den Armreif"
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1697679542}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1697679549}
+          m_TargetAssemblyTypeName: VoltageAdjustAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 2
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Instruction: "9/18 Fahren Sie mit der Elektrode \xFCber den Armreif"
     description: 
-    animator: {fileID: 31328792}
-    triggerAnimation: WorkOnArmreif2
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5299,15 +5329,125 @@ MonoBehaviour:
             m_StringArgument: aktiviereBearbeitenAktivator
             m_BoolArgument: 0
           m_CallState: 2
-  - currentObjekt: {fileID: 1492272442}
-    Instruction: "10/17 Sp\xFClen Sie den Armreif mit Wasser ab"
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1097918774}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Instruction: "10/18 Sp\xFClen Sie den Armreif mit Wasser ab"
     description: 
-    animator: {fileID: 1492272443}
-    triggerAnimation: Spray
     Response:
       m_PersistentCalls:
         m_Calls:
-        - m_Target: {fileID: 769501765}
+        - m_Target: {fileID: 1492272444}
+          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
+          m_MethodName: SetActive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: Spray
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 6
+            m_FloatArgument: 0
+            m_StringArgument: aktiviereElektrolyt
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 50187279}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981967}
+          m_TargetAssemblyTypeName: ChangeMaterial, Assembly-CSharp
+          m_MethodName: setAktivator
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Instruction: "11/18 Nehmen Sie das Stoffpad f\xFCr den Elektrolyt"
+    description: 
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1492272444}
+          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
+          m_MethodName: SetInactive
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: StehenBleiben
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 31328794}
+          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 7
+            m_FloatArgument: 0
+            m_StringArgument: aktiviereElektrolyt
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1235599476}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1641981967}
+          m_TargetAssemblyTypeName: ChangeMaterial, Assembly-CSharp
+          m_MethodName: setElektrolyt
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 84091967}
           m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
           m_MethodName: visible
           m_Mode: 1
@@ -5319,7 +5459,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 84091967}
+        - m_Target: {fileID: 769501765}
           m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
           m_MethodName: visible
           m_Mode: 1
@@ -5355,67 +5495,32 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 1492272444}
-          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
-          m_MethodName: SetActive
+        - m_Target: {fileID: 1998281469}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: Spray
+            m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 31328794}
-          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
-          m_MethodName: setInteger
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 6
-            m_FloatArgument: 0
-            m_StringArgument: aktiviereElektrolyt
-            m_BoolArgument: 0
-          m_CallState: 2
-  - currentObjekt: {fileID: 31328791}
-    Instruction: "11/17 Nehmen Sie das Stoffpad f\xFCr den Elektrolyt"
-    description: 
-    animator: {fileID: 31328792}
-    triggerAnimation: ChangeToElektrolyt
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1492272444}
-          m_TargetAssemblyTypeName: BottleAnimationController, Assembly-CSharp
-          m_MethodName: SetInactive
+        - m_Target: {fileID: 495911226}
+          m_TargetAssemblyTypeName: SetVisibility, Assembly-CSharp
+          m_MethodName: visible
           m_Mode: 1
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
             m_FloatArgument: 0
-            m_StringArgument: StehenBleiben
+            m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 31328794}
-          m_TargetAssemblyTypeName: ElektrodeAnimationController, Assembly-CSharp
-          m_MethodName: setInteger
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 7
-            m_FloatArgument: 0
-            m_StringArgument: aktiviereElektrolyt
-            m_BoolArgument: 0
-          m_CallState: 2
-  - currentObjekt: {fileID: 129872637}
-    Instruction: "12/17 Stellen Sie das Netzger\xE4t auf 4 Volt ein"
+  - Instruction: "12/18 Stellen Sie das Netzger\xE4t auf 4 Volt ein"
     description: 
-    animator: {fileID: 1697679548}
-    triggerAnimation: Voltage4
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5467,22 +5572,43 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - currentObjekt: {fileID: 31328791}
-    Instruction: 13/17 Bearbeiten Sie den Armreif mit der Elektrode
-    description: 
-    animator: {fileID: 31328792}
-    triggerAnimation: WorkOnArmreif3
-    Response:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 1697679548}
-          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
-          m_MethodName: SetTrigger
-          m_Mode: 5
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1697679542}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1697679549}
+          m_TargetAssemblyTypeName: VoltageAdjustAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
+            m_IntArgument: 3
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Instruction: 13/18 Bearbeiten Sie den Armreif mit der Elektrode
+    description: 
+    Response:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 1697679549}
+          m_TargetAssemblyTypeName: VoltageAdjustAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 4
             m_FloatArgument: 0
             m_StringArgument: Hold4V
             m_BoolArgument: 0
@@ -5499,11 +5625,20 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - currentObjekt: {fileID: 31328791}
-    Instruction: 14/17 Befeuchten sie mit dem Elektrolyt das Stoffpad
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1097918774}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Instruction: 14/18 Befeuchten sie mit dem Elektrolyt das Stoffpad
     description: 
-    animator: {fileID: 31328792}
-    triggerAnimation: PutInElektrolyt
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5519,11 +5654,20 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - currentObjekt: {fileID: 31328791}
-    Instruction: 15/17 Bearbeiten Sie den Armreif erneut mit der Elektrode
+        - m_Target: {fileID: 2087646428}
+          m_TargetAssemblyTypeName: UnityEngine.Transform, UnityEngine
+          m_MethodName: LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1097918774}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Instruction: 15/18 Bearbeiten Sie den Armreif erneut mit der Elektrode
     description: 
-    animator: {fileID: 31328792}
-    triggerAnimation: WorkOnArmreif4
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5551,11 +5695,20 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - currentObjekt: {fileID: 1492272442}
-    Instruction: "16/17 Sp\xFClen Sie den Armreif mit Wasser ab"
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 1097918774}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Instruction: "16/18 Sp\xFClen Sie den Armreif mit Wasser ab"
     description: 
-    animator: {fileID: 1492272443}
-    triggerAnimation: 
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5595,11 +5748,20 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-  - currentObjekt: {fileID: 129872637}
-    Instruction: "17/17 Schalten Sie das Netzger\xE4t aus"
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 50187279}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Instruction: "17/18 Schalten Sie das Netzger\xE4t aus"
     description: 
-    animator: {fileID: 626538267}
-    triggerAnimation: PowerOff
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5615,11 +5777,32 @@ MonoBehaviour:
             m_StringArgument: StehenBleiben
             m_BoolArgument: 0
           m_CallState: 2
-  - currentObjekt: {fileID: 573219224}
-    Instruction: "18/18 L\xF6sen Sie die Klemme vom Armreif"
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 626538262}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 626538267}
+          m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+          m_MethodName: SetTrigger
+          m_Mode: 5
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: PowerOff
+            m_BoolArgument: 0
+          m_CallState: 2
+  - Instruction: "18/18 L\xF6sen Sie die Klemme vom Armreif"
     description: 
-    animator: {fileID: 31328792}
-    triggerAnimation: PowerOff
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5631,6 +5814,18 @@ MonoBehaviour:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 12
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 2087646427}
+          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
+          m_MethodName: set_LookAt
+          m_Mode: 2
+          m_Arguments:
+            m_ObjectArgument: {fileID: 423595621}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Transform, UnityEngine
+            m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
@@ -5788,19 +5983,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -1355326087653175582, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
   m_PrefabInstance: {fileID: 1297781671}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1898793946
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1898793942}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bb539eae1625ab446b8afd40ae5df386, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  highlightMaterial: {fileID: 2100000, guid: a7504aab9cd766f42bfe0abbeaf53be3, type: 2}
 --- !u!64 &1898793947
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -6220,6 +6402,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -2664311528190272100, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 0cc3de03441ef264d9e2cc3c5d354c23, type: 2}
     - target: {fileID: 919132149155446097, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
       propertyPath: m_Name
       value: StoffpadEntfetter
@@ -6277,7 +6463,7 @@ MonoBehaviour:
   m_StreamingVersion: 20170927
   m_Priority: 10
   m_StandbyUpdate: 2
-  m_LookAt: {fileID: 0}
+  m_LookAt: {fileID: 1320627214}
   m_Follow: {fileID: 0}
   m_Lens:
     FieldOfView: 40
@@ -6301,8 +6487,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087646426}
-  m_LocalRotation: {x: -0.019254504, y: 0.7368882, z: 0.021007007, w: 0.6754138}
-  m_LocalPosition: {x: 2.4, y: 11.249597, z: 17.7}
+  m_LocalRotation: {x: 0.033582315, y: 0.8312973, z: -0.050527662, w: 0.55250704}
+  m_LocalPosition: {x: 7.36, y: 11.249597, z: 14.821}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1447790680}
