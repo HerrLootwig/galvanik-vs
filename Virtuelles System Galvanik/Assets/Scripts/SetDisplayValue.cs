@@ -8,16 +8,16 @@ public class SetDisplayValue : MonoBehaviour
 
     [SerializeField] TextMeshProUGUI textMesh;
 
-    float value;
+    [SerializeField] float value;
 
     // Update is called once per frame
     void Update()
     {
-        textMesh.SetText(value.ToString() + " V");
+        textMesh.SetText(value.ToString("n2") + " V");
     }
 
-    public void setFloat(float input)
+   /* public void setFloat(float input)
     {
         value = input;
-    }
+    }*/
 }

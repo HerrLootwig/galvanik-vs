@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 95fcac984f536ac4abd420e497299065, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -1184,7 +1184,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.8392157, g: 0.9432175, b: 1, a: 1}
-  m_Intensity: 400
+  m_Intensity: 200
   m_Range: 60.242897
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -2121,6 +2121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textMesh: {fileID: 713659133}
+  value: 2.7
 --- !u!1 &765307125
 GameObject:
   m_ObjectHideFlags: 0
@@ -2523,6 +2524,8 @@ GameObject:
   - component: {fileID: 1064710367}
   - component: {fileID: 1064710366}
   - component: {fileID: 1064710365}
+  - component: {fileID: 1064710369}
+  - component: {fileID: 1064710370}
   m_Layer: 5
   m_Name: Display
   m_TagString: Untagged
@@ -2611,6 +2614,37 @@ RectTransform:
   m_AnchoredPosition: {x: 10.82, y: 10.562}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1064710369
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064710364}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 59f26d89fea2ae442b0bd7d3e067ae4b, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1064710370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1064710364}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fdac69654e2a434f976081ecf52ce37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1076814543
 GameObject:
   m_ObjectHideFlags: 0
@@ -3356,7 +3390,7 @@ MonoBehaviour:
   priority: 0
   blendDistance: 0
   weight: 1
-  sharedProfile: {fileID: 11400000, guid: 259663493f87b954fbac73745133d140, type: 2}
+  sharedProfile: {fileID: 11400000, guid: dc276cb70f90dba45983c8daf79863ff, type: 2}
 --- !u!4 &1226305799
 Transform:
   m_ObjectHideFlags: 0
@@ -3837,6 +3871,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: -8004510451052757261, guid: d24bde57d267a32498bba9034e401826, type: 3}
+      propertyPath: m_Materials.Array.data[3]
+      value: 
+      objectReference: {fileID: 2100000, guid: e70c5e2ef60f0954fa9e76de15389573, type: 2}
     - target: {fileID: -7493026202427808765, guid: d24bde57d267a32498bba9034e401826, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -4467,18 +4505,6 @@ MonoBehaviour:
             m_StringArgument: PowerOn
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 713659135}
-          m_TargetAssemblyTypeName: SetDisplayValue, Assembly-CSharp
-          m_MethodName: setFloat
-          m_Mode: 4
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 2.7
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
         - m_Target: {fileID: 1064710364}
           m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
@@ -4559,15 +4585,15 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 713659135}
-          m_TargetAssemblyTypeName: SetDisplayValue, Assembly-CSharp
-          m_MethodName: setFloat
-          m_Mode: 4
+        - m_Target: {fileID: 1064710370}
+          m_TargetAssemblyTypeName: DisplayAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 6
+            m_IntArgument: 1
+            m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -4779,14 +4805,14 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 713659135}
-          m_TargetAssemblyTypeName: SetDisplayValue, Assembly-CSharp
-          m_MethodName: setFloat
-          m_Mode: 4
+        - m_Target: {fileID: 1064710370}
+          m_TargetAssemblyTypeName: DisplayAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
+            m_IntArgument: 2
             m_FloatArgument: 2.7
             m_StringArgument: 
             m_BoolArgument: 0
@@ -4979,14 +5005,14 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 713659135}
-          m_TargetAssemblyTypeName: SetDisplayValue, Assembly-CSharp
-          m_MethodName: setFloat
-          m_Mode: 4
+        - m_Target: {fileID: 1064710370}
+          m_TargetAssemblyTypeName: DisplayAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
+            m_IntArgument: 3
             m_FloatArgument: 4
             m_StringArgument: 
             m_BoolArgument: 0
