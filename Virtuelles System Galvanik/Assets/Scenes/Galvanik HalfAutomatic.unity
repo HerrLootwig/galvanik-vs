@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: 95fcac984f536ac4abd420e497299065, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 0ffaa0b7117ba8c47a9d05ae701d4b4d, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -3997,7 +3997,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507269314}
-  m_LocalRotation: {x: 0.033582315, y: 0.8312973, z: -0.050527662, w: 0.55250704}
+  m_LocalRotation: {x: 0.033582304, y: 0.8312973, z: -0.05052764, w: 0.55250704}
   m_LocalPosition: {x: 7.36, y: 11.249597, z: 14.821}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -5184,19 +5184,7 @@ MonoBehaviour:
             m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
-            m_BoolArgument: 1
-          m_CallState: 2
-        - m_Target: {fileID: 1130196668}
-          m_TargetAssemblyTypeName: DisplayAnimationController, Assembly-CSharp
-          m_MethodName: setInteger
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 1
+            m_BoolArgument: 0
           m_CallState: 2
   - Instruction: "3/18 Stellen sie das Netzger\xE4t auf 6 Volt ein"
     description: "Der Entfetter kann mit und ohne Strom verwendet werden. Mit Strom
@@ -5289,6 +5277,18 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 1130196667}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 1
+          m_CallState: 2
         - m_Target: {fileID: 1130196668}
           m_TargetAssemblyTypeName: DisplayAnimationController, Assembly-CSharp
           m_MethodName: setInteger
@@ -5296,10 +5296,10 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 1
+            m_IntArgument: 0
             m_FloatArgument: 0
             m_StringArgument: 
-            m_BoolArgument: 0
+            m_BoolArgument: 1
           m_CallState: 2
   - Instruction: 4/17 Stecken Sie die Klemme an den Armreif
     description: "Die Elektroklemme oder Krokoklemme ist mit dem Minuskontakt verbunden.
@@ -5695,7 +5695,7 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 2
+            m_IntArgument: 1
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
@@ -6027,7 +6027,7 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 3
+            m_IntArgument: 2
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 1
@@ -6948,7 +6948,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087646426}
-  m_LocalRotation: {x: 0.033582315, y: 0.8312973, z: -0.050527662, w: 0.55250704}
+  m_LocalRotation: {x: 0.033582304, y: 0.8312973, z: -0.05052764, w: 0.55250704}
   m_LocalPosition: {x: 7.36, y: 11.249597, z: 14.821}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
