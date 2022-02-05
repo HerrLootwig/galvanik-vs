@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731713, g: 0.13414736, b: 0.12107852, a: 1}
+  m_IndirectSpecularColor: {r: 0.20749128, g: 0.21147479, b: 0.14576818, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 112000000, guid: 43a4f1318aaca7d4fa4314590d537cf5, type: 2}
+  m_LightingDataAsset: {fileID: 112000000, guid: ca3c31ced6b2734469865c0466ae97e0, type: 2}
   m_LightingSettings: {fileID: 4890085278179872738, guid: 2dce0c6153e418e49b1b105d0f3655cd, type: 2}
 --- !u!196 &4
 NavMeshSettings:
@@ -841,10 +841,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 395455737}
-        m_TargetAssemblyTypeName: haw.unitytutorium.w21.UserInterface, Assembly-CSharp
-        m_MethodName: DisplayInstruction
-        m_Mode: 5
+      - m_Target: {fileID: 1603212558}
+        m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
+        m_MethodName: LoadNextLevel
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1143,7 +1143,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.8392157, g: 0.9432175, b: 1, a: 1}
-  m_Intensity: 400
+  m_Intensity: 200
   m_Range: 60.242897
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -4157,7 +4157,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1507269314}
-  m_LocalRotation: {x: 0.033582304, y: 0.8312973, z: -0.05052764, w: 0.55250704}
+  m_LocalRotation: {x: 0.033582315, y: 0.8312973, z: -0.050527662, w: 0.55250704}
   m_LocalPosition: {x: 7.36, y: 11.249597, z: 14.821}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -4888,6 +4888,8 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
+  source: {fileID: 0}
+  clip: {fileID: 0}
 --- !u!114 &1507269321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4937,6 +4939,49 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!1 &1603212557
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1603212559}
+  - component: {fileID: 1603212558}
+  m_Layer: 0
+  m_Name: Loader
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1603212558
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603212557}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4407e70a3e204f444a1e0b786a6f664a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1603212559
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1603212557}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 11.716394, y: 11.654406, z: 10.486321}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 19
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1641981962 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1091624677310397015, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
@@ -6863,7 +6908,7 @@ Light:
   m_Type: 0
   m_Shape: 0
   m_Color: {r: 0.8392157, g: 0.9423251, b: 1, a: 1}
-  m_Intensity: 200
+  m_Intensity: 300
   m_Range: 50
   m_SpotAngle: 107.67504
   m_InnerSpotAngle: 23.43815
@@ -6902,7 +6947,7 @@ Light:
     serializedVersion: 2
     m_Bits: 4294967295
   m_RenderingLayerMask: 1
-  m_Lightmapping: 1
+  m_Lightmapping: 4
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1
@@ -7120,7 +7165,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2087646426}
-  m_LocalRotation: {x: 0.033582304, y: 0.8312973, z: -0.05052764, w: 0.55250704}
+  m_LocalRotation: {x: 0.033582315, y: 0.8312973, z: -0.050527662, w: 0.55250704}
   m_LocalPosition: {x: 7.36, y: 11.249597, z: 14.821}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
