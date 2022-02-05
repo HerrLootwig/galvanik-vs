@@ -11,6 +11,9 @@ namespace haw.unitytutorium.w21
         [SerializeField] private string defaultErrorMsg;
         [SerializeField] private Interaction[] interactions = null;
 
+        [SerializeField] AudioSource source;
+        [SerializeField] AudioClip clip;
+
         private MouseSelectionController mouseSelectionController;
 
         private Interaction currentInteraction;
@@ -127,6 +130,7 @@ namespace haw.unitytutorium.w21
         private void HandleError()
         {
             userInterface.DisplayErrorMessage(currentInteraction.ErrorMsg);
+            source.PlayOneShot(clip);
             errorCount += 1;
             userInterface.SetErrorCount(errorCount);
         }
