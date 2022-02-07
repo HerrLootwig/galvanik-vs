@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace haw.unitytutorium.w21
 {
@@ -27,7 +28,7 @@ namespace haw.unitytutorium.w21
         [SerializeField] private TextMeshProUGUI errorResult = null;
         [SerializeField] private TextMeshProUGUI helpResult = null;
         [SerializeField] private TextMeshProUGUI ratingResult = null;
-        [SerializeField] private GameObject helpButton;
+        [SerializeField] private Button helpButton;
 
         private void Start()
         {
@@ -44,18 +45,18 @@ namespace haw.unitytutorium.w21
             if (Panel != null) {
                 errorResult.text = errorCountLabel.text;
                 helpResult.text = helpCountLabel.text;
-                helpButton.SetActive(false);
+                helpButton.gameObject.SetActive(false);
                 Panel.SetActive(true);
             }
         }
 
       
 
-            public void HideResults()
+        public void HideResults()
         {
             if (Panel != null)
             {
-                helpButton.SetActive(true);
+                helpButton.gameObject.SetActive(true);
                 Panel.SetActive(false);
             }
         }
@@ -68,8 +69,13 @@ namespace haw.unitytutorium.w21
 
         public void DisplayHelpMessage(string helpMsg)
         {
-            StopHelpAndErrorDisplay();
-            StartCoroutine(DisplayWithDelayAndDuration(helpLabel, helpMsg, helpDelayTime, helpDisplayTime));
+            helpLabel.text = helpMsg;
+            helpButton.interactable = false;
+        }
+        public void HideHelpMessage()
+        {
+            helpLabel.text = "";
+            helpButton.interactable = true;
         }
 
         public void DisplayErrorMessage(string errorMsg)

@@ -121,6 +121,7 @@ namespace haw.unitytutorium.w21
             if (interactionIndex < interactions.Length)
             {
                 currentInteraction = interactions[interactionIndex];
+                userInterface.HideHelpMessage();
                 userInterface.DisplayInstruction(currentInteraction.Instruction);
             }
 
