@@ -8,6 +8,7 @@ using UnityEngine.Events;
     
     public string Instruction;
     public string description;
+    public GameObject clickedObject;
     public UnityEvent Response;
 }
 

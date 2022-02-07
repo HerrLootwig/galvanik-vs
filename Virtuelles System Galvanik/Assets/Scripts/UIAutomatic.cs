@@ -30,10 +30,7 @@ public class UIAutomatic : MonoBehaviour
         bool isActive = descriptionPanel.activeSelf;
         descriptionPanel.SetActive(!isActive);
     }
-    public void HideDescriptionPanel()
-    {
-        descriptionPanel.SetActive(false);
-    }
+  
 
     public void HidePreviousButton()
     {
