@@ -1902,12 +1902,12 @@ GameObject:
   - component: {fileID: 667562329}
   - component: {fileID: 667562328}
   m_Layer: 5
-  m_Name: DisplayText
+  m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &667562327
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4068,6 +4068,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 3
       objectReference: {fileID: 0}
+    - target: {fileID: 7071182760956848314, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8416272007918961125, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
       propertyPath: m_Layer
       value: 3
@@ -6190,18 +6194,6 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 0}
-          m_TargetAssemblyTypeName: Cinemachine.CinemachineVirtualCamera, Cinemachine
-          m_MethodName: 
-          m_Mode: 1
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: 
-            m_IntArgument: 0
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
   - Instruction: "2/18 Schalten Sie das Netzger\xE4t ein"
     description: "Das schwarze Kabel muss beim Minuskontakt eingesteckt sein, das
       rote Kabel beim Pluskontakt. Die beiden Kabelenden oder die angeschlossenen
@@ -6317,6 +6309,30 @@ MonoBehaviour:
             m_StringArgument: PowerOn
             m_BoolArgument: 0
           m_CallState: 2
+        - m_Target: {fileID: 667562326}
+          m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_MethodName: SetActive
+          m_Mode: 6
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+        - m_Target: {fileID: 1130196668}
+          m_TargetAssemblyTypeName: DisplayAnimationController, Assembly-CSharp
+          m_MethodName: setInteger
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
   - Instruction: "3/18 Stellen sie das Netzger\xE4t auf 6 Volt ein"
     description: "Der Entfetter kann mit und ohne Strom verwendet werden. Mit Strom
       ist die Wirkung des Entfetters deutlich verbessert. Eine sorgf\xE4ltige Vorbereitung
@@ -6408,7 +6424,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 1130196667}
+        - m_Target: {fileID: 667562326}
           m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
           m_Mode: 6
@@ -6427,7 +6443,7 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 0
+            m_IntArgument: 1
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 1
@@ -6826,7 +6842,7 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 1
+            m_IntArgument: 2
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 0
@@ -7139,7 +7155,7 @@ MonoBehaviour:
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 1130196667}
+        - m_Target: {fileID: 667562326}
           m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
           m_Mode: 6
@@ -7158,7 +7174,7 @@ MonoBehaviour:
           m_Arguments:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 2
+            m_IntArgument: 3
             m_FloatArgument: 0
             m_StringArgument: 
             m_BoolArgument: 1
@@ -7378,7 +7394,7 @@ MonoBehaviour:
             m_StringArgument: PowerOff
             m_BoolArgument: 0
           m_CallState: 2
-        - m_Target: {fileID: 1130196667}
+        - m_Target: {fileID: 667562326}
           m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_MethodName: SetActive
           m_Mode: 6
