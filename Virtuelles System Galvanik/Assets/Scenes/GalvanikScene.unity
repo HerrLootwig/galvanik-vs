@@ -1377,7 +1377,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0, g: 0, b: 0, a: 0.91764706}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.98039216}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1753,140 +1753,6 @@ MonoBehaviour:
   helpResult: {fileID: 1571185690}
   ratingResult: {fileID: 1745961443}
   helpButton: {fileID: 84277455}
---- !u!1 &414265713
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 414265714}
-  - component: {fileID: 414265716}
-  - component: {fileID: 414265715}
-  m_Layer: 5
-  m_Name: Text (TMP)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &414265714
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 414265713}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1464987976}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &414265715
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 414265713}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Button
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 2
-  m_VerticalAlignment: 512
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &414265716
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 414265713}
-  m_CullTransparentMesh: 1
 --- !u!1 &422632050 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1091624677310397015, guid: 3caaae2a54a648a45984a3d7c8b0079f, type: 3}
@@ -5376,127 +5242,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1459483116}
   m_CullTransparentMesh: 1
---- !u!1 &1464987972
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1464987976}
-  - component: {fileID: 1464987975}
-  - component: {fileID: 1464987974}
-  - component: {fileID: 1464987973}
-  m_Layer: 5
-  m_Name: Button
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1464987973
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1464987972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1464987974}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1464987974
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1464987972}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1464987975
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1464987972}
-  m_CullTransparentMesh: 1
---- !u!224 &1464987976
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1464987972}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 414265714}
-  m_Father: {fileID: 0}
-  m_RootOrder: 18
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1507269314
 GameObject:
   m_ObjectHideFlags: 0
@@ -5654,7 +5399,7 @@ MonoBehaviour:
   defaultErrorMsg: Das ist falsch!
   interactions:
   - GameObject: {fileID: 422632050}
-    Instruction: "1/19 Nehmen Sie das Stoffpad f\xFCr den Entfetter"
+    Instruction: "1/18 Nehmen Sie das Stoffpad f\xFCr den Entfetter"
     HelpMsg: "Beachten Sie die Ettiketten und die Gef\xE4\xDFe davor!"
     ErrorMsg: Das ist nicht das gesuchte Stoffpad
     duration: 2.5
@@ -5710,7 +5455,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 626538260}
-    Instruction: "2/19 Schalten Sie das Netzger\xE4t ein"
+    Instruction: "2/18 Schalten Sie das Netzger\xE4t ein"
     HelpMsg: Ein schwarzer Kippschalter
     ErrorMsg: Das ist nicht der gesuchte Schalter
     duration: 1
@@ -5742,7 +5487,7 @@ MonoBehaviour:
             m_BoolArgument: 1
           m_CallState: 2
   - GameObject: {fileID: 1697679541}
-    Instruction: "3/19 Stellen Sie das Netzger\xE4t auf 6 Volt ein"
+    Instruction: "3/18 Stellen Sie das Netzger\xE4t auf 6 Volt ein"
     HelpMsg: Ein runder Knopf
     ErrorMsg: Das ist nicht der gesuchte Schalter
     duration: 1.5
@@ -5822,10 +5567,10 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 342437329}
-    Instruction: 4/19 Stecken Sie die Elektroklemme an den Armreif
+    Instruction: 4/18 Stecken Sie die Elektroklemme an den Armreif
     HelpMsg: "Sieht einem Flugsaurierkopf nicht un\xE4hnlich"
     ErrorMsg: Das ist nicht die Elektroklemme
-    duration: 1.5
+    duration: 2.5
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -5842,7 +5587,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 1898793942}
-    Instruction: "5/19 Fahren Sie mit der Elektrode \xFCber den Armreif"
+    Instruction: "5/18 Fahren Sie mit der Elektrode \xFCber den Armreif"
     HelpMsg: Das Teil, an dem eben das Stoffpad befestigt wurde
     ErrorMsg: Das ist nicht die Elektrode
     duration: 10
@@ -5862,7 +5607,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 754077987}
-    Instruction: "6/19 Sp\xFClen Sie den Armreif mit Wasser ab"
+    Instruction: "6/18 Sp\xFClen Sie den Armreif mit Wasser ab"
     HelpMsg: "Die Spr\xFChflasche"
     ErrorMsg: Das ist nicht das Wasser
     duration: 3
@@ -5930,7 +5675,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 84091961}
-    Instruction: "7/19 Nehmen Sie das Stoffpad f\xFCr den Aktivator"
+    Instruction: "7/18 Nehmen Sie das Stoffpad f\xFCr den Aktivator"
     HelpMsg: Das zweite Pad von links
     ErrorMsg: Das ist nicht das gesuchte Stoffpad
     duration: 3.5
@@ -5962,7 +5707,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 1697679541}
-    Instruction: "8/19 Stellen Sie das Netzger\xE4t auf 2.7 Volt ein"
+    Instruction: "8/18 Stellen Sie das Netzger\xE4t auf 2.7 Volt ein"
     HelpMsg: Der runde Knopf
     ErrorMsg: Das ist nicht der gesuchte Schalter
     duration: 1.5
@@ -6042,7 +5787,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 1898793942}
-    Instruction: "9/19 Fahren Sie mit der Elektrode \xFCber den Armreif"
+    Instruction: "9/18 Fahren Sie mit der Elektrode \xFCber den Armreif"
     HelpMsg: Das Teil, an dem eben das Stoffpad befestigt wurde
     ErrorMsg: Das ist nicht die Elektrode
     duration: 10
@@ -6062,7 +5807,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 754077987}
-    Instruction: "10/19 Sp\xFClen Sie den Armreif mit Wasser ab"
+    Instruction: "10/18 Sp\xFClen Sie den Armreif mit Wasser ab"
     HelpMsg: "Die Spr\xFChflasche"
     ErrorMsg: Das ist nicht das Wasser
     duration: 2.5
@@ -6130,7 +5875,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 495911220}
-    Instruction: "11/19 Nehmen Sie das Stoffpad f\xFCr den Elektrolyt"
+    Instruction: "11/18 Nehmen Sie das Stoffpad f\xFCr den Elektrolyt"
     HelpMsg: Beachten Sie das Etikett
     ErrorMsg: Das ist nicht das gesuchte Stoffpad
     duration: 3.5
@@ -6162,7 +5907,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 1697679541}
-    Instruction: "12/19 Stellen Sie das Netzger\xE4t auf 4 Volt ein"
+    Instruction: "12/18 Stellen Sie das Netzger\xE4t auf 4 Volt ein"
     HelpMsg: Der runde Knopf
     ErrorMsg: Das ist nicht der gesuchte Schalter
     duration: 1.5
@@ -6242,10 +5987,10 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 1898793942}
-    Instruction: 13/19 Bearbeiten Sie den Armreif mit der Elektrode
+    Instruction: 13/18 Bearbeiten Sie den Armreif mit der Elektrode
     HelpMsg: Das Teil, an dem eben das Stoffpad befestigt wurde
     ErrorMsg: Das ist nicht die Elektrode
-    duration: 1
+    duration: 10
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -6262,10 +6007,10 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 68381007}
-    Instruction: 14/19 Nutzen Sie den Elektrolyt um das Stoffpad vollzusaugen
+    Instruction: 14/18 Befeuchten sie mit dem Elektrolyt das Stoffpad
     HelpMsg: Achten Sie auf das Etikett
     ErrorMsg: Das ist nicht das Elektrolyt
-    duration: 1
+    duration: 5
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -6282,10 +6027,10 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 1898793942}
-    Instruction: 15/19 Bearbeiten Sie den Armreif erneut mit der Elektrode
+    Instruction: 15/18 Bearbeiten Sie den Armreif erneut mit der Elektrode
     HelpMsg: Das Teil, an dem eben das Stoffpad befestigt wurde
     ErrorMsg: Das ist nicht die Elektrode
-    duration: 1
+    duration: 10
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -6302,10 +6047,10 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 754077987}
-    Instruction: "16/19 Sp\xFClen Sie den Armreif mit Wasser ab"
+    Instruction: "16/18 Sp\xFClen Sie den Armreif mit Wasser ab"
     HelpMsg: "Die Spr\xFChflasche"
     ErrorMsg: Das ist nicht das Wasser
-    duration: 3
+    duration: 2.5
     Response:
       m_PersistentCalls:
         m_Calls:
@@ -6322,7 +6067,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
   - GameObject: {fileID: 626538260}
-    Instruction: "17/19 Schalten Sie das Netzger\xE4t aus"
+    Instruction: "17/18 Schalten Sie das Netzger\xE4t aus"
     HelpMsg: Ein schwarzer Kippschalter
     ErrorMsg: Das ist nicht der gesuchte Schalter
     duration: 1
@@ -6357,7 +6102,7 @@ MonoBehaviour:
     Instruction: 18/18 Entfernen Sie die Klemme vom Armreif
     HelpMsg: "\xC4hnelt auch einen Krokodil"
     ErrorMsg: Das ist nicht die Klemme
-    duration: 1
+    duration: 2.5
     Response:
       m_PersistentCalls:
         m_Calls:
