@@ -10,6 +10,7 @@ public class UIAutomatic : MonoBehaviour
     [SerializeField] private TextMeshProUGUI descriptionLabel = null;
     [SerializeField] private GameObject nextButton;
     [SerializeField] private GameObject previousButton;
+    [SerializeField] private GameObject descriptionPanel;
 
     // Start is called before the first frame update
     public void DisplayInstruction(string instruction)
@@ -22,6 +23,16 @@ public class UIAutomatic : MonoBehaviour
     {
 
         descriptionLabel.SetText(description);
+    }
+
+    public void ToggleDescriptionPanel()
+    {
+        bool isActive = descriptionPanel.activeSelf;
+        descriptionPanel.SetActive(!isActive);
+    }
+    public void HideDescriptionPanel()
+    {
+        descriptionPanel.SetActive(false);
     }
 
     public void HidePreviousButton()
