@@ -5922,18 +5922,6 @@ MeshRenderer:
   m_CorrespondingSourceObject: {fileID: -2664311528190272100, guid: 69c5402fcaede634e9cb4b090fe2191f, type: 3}
   m_PrefabInstance: {fileID: 1297781671}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1641981966
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641981962}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4256c8621189b9c4e80c922699d57526, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1641981967
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6139,18 +6127,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -5568371526223589888, guid: 4e83899be1da6034f846220379182992, type: 3}
   m_PrefabInstance: {fileID: 657920872}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1697679545
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1697679541}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cb85d2f64717bc04f8bc3510793fb2e5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!135 &1697679546
 SphereCollider:
   m_ObjectHideFlags: 0
